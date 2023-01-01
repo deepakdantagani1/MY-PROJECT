@@ -1,5 +1,8 @@
 /**
  * Security::
+ *
+ * user can access buckes in the s3 eight by IM user permisions or by buckey policy
+ *
  * user based:
  * ==> IAM policies: with API calls should be allowed for a specific user from IAM console
  *

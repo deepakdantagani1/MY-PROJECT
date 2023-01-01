@@ -1,4 +1,9 @@
 /**
+ *
+ * https://share.icloud.com/photos/077vOsae3jEkU-eNOKPtnhvUQ
+ *
+ * s3 types are depends on the DURABILITY and AVAILABILITY
+ *
  * -- s3 standard--
  * ==> high availability and durability
  * ==> designed for frequent access data
@@ -14,7 +19,7 @@
  * ==> cost affective
  * ==> longlived, infrequent, non-critical data
  *
- * -- Gracier and glacier deep archive --
+ * -- Gracier instant, glacier flexible(3 to 5 hours for standard) and glacier deep archive --
  * ==> cheap, data that is very infrequently accessed
  * ==> pay each time we access data
  * ==> only used for archiving data
