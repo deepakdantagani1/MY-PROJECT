@@ -1,4 +1,7 @@
 /**
+ *
+ * https://share.icloud.com/photos/0e4jxC-3PfXrGe_lCU4qV7UhQ
+ *
  * allows TCP and UDP traffic to instances
  * handles misslions of requests per sec
  * less latency ~ 100 ms(vs 400 ms for ALB)

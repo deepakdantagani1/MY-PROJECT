@@ -1,4 +1,7 @@
 /**
+ *
+ * https://share.icloud.com/photos/001iW8m68qj2k12Fk_H_wjxSg
+ *
  * with the cross zone load balancer instance distributes evenly across all registered instances in all AZ
  *
  * otherwise, each laod balancer mode discributes requests evenly across the registerd instances in its availability zones only
