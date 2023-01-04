@@ -16,7 +16,13 @@
  *          ==> https must be used and the encryption key must be passed through https headers
  *
  * ---client side encryotion---
+ * object will be encrypted and then added to s3
  * ---encryption in transit---
  * ssl/tls, https endpoint => encryption on flight
+ *
+ * ---bucket policy---
+ * use bucket policy to force encryption and refuse any api calss to put an s3 object without encryption
+ *
+ * ---default encryption---
  *
  */

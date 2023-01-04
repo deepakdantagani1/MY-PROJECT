@@ -1,8 +1,9 @@
 /**
  * ==> contentdelivery network
- *  ==> sytem of distributed services, which delivers web pages nad other web content.
+ *  ==> sytem of distributed services, which delivers web pages amd other web content.
  * ==> edge location ==> collectoin of services which geolocation dispersed datacenters
  * ==> cloudFront uses edge loation to save copies of objects(web pages/images)
+ * ==> security is being maintained with OAC Origian access control
  *
  * ---cloudfront edge locations---
  * ==> this is where content is cached. seperate to an aws region/az
@@ -12,10 +13,10 @@
  *
  * use cases
  * Accelerate static website content delivery
-Serve video on demand or live streaming video
-Encrypt specific fields throughout system processing
-Customize at the edge
-Serve private content by using Lambda@Edge customizations
+ * Serve video on demand or live streaming video
+ * ncrypt specific fields throughout system processing
+ * Customize at the edge
+ * Serve private content by using Lambda@Edge customizations
  *
  *
  *
