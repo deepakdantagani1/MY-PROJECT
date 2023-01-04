@@ -7,4 +7,9 @@
  * it is possible to scale an ASG based on cloudwatch alarms
  * an alarm monitors a matric(such as average cpu, or a custom martic)
  *
+ * remember types
+ * --- scaling policies ---
+ * ==> dynamic scaling policies (target tracking, like avg cup stay around 40%) (simple/step scaling, clpud watch alarm) (scheaduled actions)
+ * ==> predictive scaling ()
+ *
  */

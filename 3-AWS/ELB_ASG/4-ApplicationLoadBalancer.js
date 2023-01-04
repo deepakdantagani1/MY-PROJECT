@@ -38,11 +38,17 @@
  * ALB can be routed to multile target groups
  * health checks are at the target group level
  *
- * good to know:
+ * examps preperation
+ * *******imp***** good to know:
  * fixed hostname (XXX.region.elb.amazonaws.com)
  * the application server don't see the ip od the client directly
  * ==> true IP of the client is is=nserted in the headers X_Forwarded-for
  * ==> we cana lso get post (X-Forwarded-port) adn proto(X_forwarded-proto)
+ * ==> ALBs can route traffic to different Target Groups based on URL Path, Hostname, HTTP Headers, and Query Strings
+ * but not client locations
+ * ==> Network Load Balancer has one static IP address per AZ and you can attach an Elastic IP address to it. Application Load Balancers and Classic Load Balancers as a static DNS name.
+ * ==>  Application Load Balancer name formate
+ * cookie names are reserved by the ELB (AWSALB, AWSALBAPP, AWSALBTG).
  *
  *
  *                                                                                          laod balancer LP(provate IP)
