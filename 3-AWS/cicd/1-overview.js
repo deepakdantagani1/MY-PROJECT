@@ -7,6 +7,8 @@
  * AWS codeArtifact - store, publish, and share software packages
  * AWS codeGuru - automated code reviews using Machine Learning
  *
+ * cicd ==> continuous intigration and continuous delivery
+ *
  * ---continuous intigration (CI)---
  * push the code to repo
  * testing/building servers check the as soon as it's pushed
