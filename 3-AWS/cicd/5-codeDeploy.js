@@ -21,4 +21,10 @@
  * ---deployment types---
  * inplace
  * blue/green
+ *
+ * ---hooks---
+ * beforeInstall
+ * afterInstall
+ * applicationStart
+ * validateService
  */
