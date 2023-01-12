@@ -6,20 +6,20 @@
  * understand dependency in a microservice architecture
  * pinpoint service issues
  * review request behavior
- * fimd error and exceptions
+ * find error and exceptions
  * are we meeting time sla?
  * where iam throttled
  * identify users that are impacted
  *
  * ---x-ray leverages tracktracinging--
  * tracing is an end to end way to follow a request
- * each component dealing with the request adds it;s own trace
+ * each component dealing with the request adds it's own trace
  * tracing is make of segments
  * annothation can be added to traces to provide extra information
  * ability to trace, every request, and simple request
  *
  * --how to enable it---
- * code nust import the aws x-ray sdk
+ * code must import the aws x-ray sdk
  * install the -ray demon or enable x-ray aws integration
  *
  * --concepts---
@@ -41,6 +41,13 @@
  * GetSamplingTargets
  * getSamplingStatisticSummaries
  * get==>
+ *
+ * ---with ealstic beanstalk---
+ * setting in the elastic beanstalk console or with the config file (in .ebsxtensions/xray-daemon.config)
+ *
+ * ---ecs x-ray---
+ * for this, we need to have one x-ray demon container per each for each INSTANCE
+ * another way is to have a sode car for each CONTAINER in the instance
  *
  *
  */
