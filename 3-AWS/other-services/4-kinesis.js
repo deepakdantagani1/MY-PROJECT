@@ -9,12 +9,47 @@
  * kinesis streams ==> stream data and video to allow to build custom applications that process data in realtime
  *                 ==> Deals with datastream and video stream
  *
+ * kinesis data stream ==> capture, process and store data stream
+ * kinesis data firehose ==> load data stream into aws stores
+ * kinesis data analytics ==> analyze data stream with sql and apachiflink
+ * kenesis vidor stream ==> capture, process and store video  streams
+ *
+ * https://share.icloud.com/photos/05eZR4fuItIBrpAInJkPCb1XA
+ * ---kinesis data stream---
+ * retention between 1 to 365 days
+ * ability to reprocess data
+ * data can't be deleated
+ * data shares the same partition goes to the same shard(ordering?)
+ *
+ * https://share.icloud.com/photos/09asJvfcpJl8EFd6XwMT0w3eA
+ * produsers: aws sdk, produser library, agents
+ *
+ * https://share.icloud.com/photos/042CKyjRHIN0EXdLT05_ox2Mg
+ * consumers: sdk or own client library, lambda, KDF, KDA
+ * -> shared(classic) fanout consumer
+ * -> enhanced fan out consumer
+ * -> lambda consumes in batches and support both types of consumer
+ * https://share.icloud.com/photos/0182QkVHiBQdLw3FjS37ypjWg
+ * -> Kenisis client libraby
+ *
+ * provisioned mode ==>
+ * we need to choose no of shards, and scale manually or using api
+ * each shard 1mb/sec in, 2mb/sec out
+ * pay per shard provisioned per hour
+ *
+ * on-demand mode ==>
+ * no need ot provision or manage the no of shards
+ * defalut capacity provisioned (4mb/sec)
+ *
+ * https://share.icloud.com/photos/0c5QvQqGzTdxqnwtXW5I0Bl1Q
  * ---kinesis data firehose---
  * capture, transform, load data streams into aws data stores to enable near realtime analysis BI tooles
  *
+ * https://share.icloud.com/photos/025QofpJQHlf5Z7ooRDWLg74A
  * -- kinesis data analytics ---
  * analyze, query and transform streamd data in realtime using standard SQL, stores the results in an aws data store
  *
  * --- shards ---
+ * slipping shares, marging shards
  *
  */
