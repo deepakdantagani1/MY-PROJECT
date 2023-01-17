@@ -1,4 +1,8 @@
 /**
+ *
+ * ---architecture---
+ * https://share.icloud.com/photos/0e4c-6ki1UgzbI57b2Nf26Naw
+ *
  * gateway + labda ==> no infra to mamage
  * support for the web socket protocal (chatting, gaming)
  * handle api versioning
@@ -11,7 +15,7 @@
  * generate SDK and api specifications
  * cache api response
  *
- * ==> we can expose and AWS service to the API gateway
+ * ==> we can expose any AWS service to the API gateway
  * ---intigrations---
  * lambda, http, aws services
  *
