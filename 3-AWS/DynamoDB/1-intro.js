@@ -19,4 +19,9 @@
  * keys
  * => partition key (unique id)
  * => composite key (partition key + sort key)
+ *
+ * ---notes---
+ * max size of each item is 400kb
+ * primary keys ==> partition key
+ *              ==> partition key + sort key
  */

@@ -1,7 +1,7 @@
 /**
  * get-item command ==> getItem api
  * create-table
- * pur-item
+ * put-item
  * update-item
  * update-table
  * list-tables

@@ -7,4 +7,6 @@
  *
  * ON demand capacity
  *
+ * ==> 4.5 will be rounded to upper kb
+ *
  */
