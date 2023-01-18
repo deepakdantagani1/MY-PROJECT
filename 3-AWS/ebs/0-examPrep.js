@@ -14,5 +14,5 @@ IIS
 not JBOSS
 
 /**
- *
+ * Elastic Beanstalk is not a supported method of deploying Lambda.
  */
