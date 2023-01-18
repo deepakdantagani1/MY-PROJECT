@@ -47,7 +47,7 @@
  *
  * ---ecs x-ray---
  * for this, we need to have one x-ray demon container per each for each INSTANCE
- * another way is to have a sode car for each CONTAINER in the instance
+ * another way is to have a side car for each CONTAINER in the instance
  *
  *
  */
