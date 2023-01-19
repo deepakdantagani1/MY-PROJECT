@@ -34,6 +34,51 @@
  * ==> x-amz-server-side-encryption
  * ==> STS:AssumeRole, eturns a set of temporary security credentials which can be used to access AWS resources, including those in a different account
  * ==> Viewer protocol policy defines the protocols which can be used to access CloudFront content.
+ * ==> SMS text message-based MFA, onlu for AIM users
+ * ==> We can create an alias for a specific version of your function and then use that alias in your resource-based policies or API Gateway to route a portion of traffic to the new version
+ * ==> The visibility timeout for the queue is in seconds. Valid values are: An integer from 0 to 43,200 (12 hours), the Default value is 30.
+ * ==> The length of time, in seconds, for which the delivery of all messages in the queue is delayed is configured using DelaySeconds attribute. MessageRetentionPeriod attribute controls the length of time, in seconds, for which Amazon SQS retains a message.
+ * ==> By default, scripts entered as user data are executed with root user privileges. And By default, user data runs only during the boot cycle when you first launch an instance
+ * ==>  CloudWatch Events delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources. These help to trigger notifications based on changes happening in AWS services
+ * ==> cloudformation yaml template objects
+ * AWSTemplateFormateVersion
+ * description
+ * metadata
+ * paramaters
+ * mappings
+ * conditions
+ * transform
+ * resources
+ * output
+ * ==> "Cognito User Pools", After successful authentication, Amazon Cognito returns user pool tokens to your app. You can use the tokens to grant your users access to your own server-side resources, or to the Amazon API Gateway.
+ * ==> "Cognito Identity Pools" - You can use Identity pools to grant your users access to other AWS services. With an identity pool, your users can obtain temporary AWS credentials to access AWS services, such as Amazon S3 and DynamoDB. Identity pools support anonymous guest users, as well as the specific identity providers that you can use to authenticate users for identity pools.
+ * ==> "Cognito Sync" - Amazon Cognito Sync is an AWS service and client library that enables cross-device syncing of application-related user data. You can use it to synchronize user profile data across mobile devices and the web without requiring your own backend.
+ * ==> policies
+ * https://share.icloud.com/photos/089NpO7ERCX0MRIKpFxOfoSmA
+ * ==> "Lambda Authorizer", An Amazon API Gateway Lambda authorizer (formerly known as a custom authorizer) is a Lambda function that you provide to control access to your API. A Lambda authorizer uses bearer token authentication strategies, such as OAuth or SAML
+ * ==> delete queue, vs purge queue
+ * ==> Access Advisor feature on IAM console- To help identify the unused roles
+ * ==> AWS Trusted Advisor - AWS Trusted Advisor is an online tool that provides you real-time guidance to help you provision your resources following AWS best practices on cost optimization, security, fault tolerance, service limits, and performance improvement.
+ * ==> IAM Access Analyzer - AWS IAM Access Analyzer helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, that are shared with an external entity.
+ * ==> Amazon Inspector - Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS.
+ * ==> "s3:x-amz-server-side-encryption":"aws:kms"
+ * ==> X-Ray sampling, By customizing sampling rules, you can control the amount of data that you record, and modify sampling behavior on the fly without modifying or redeploying your code
+ * ==> AWS Cloud Development Kit (CDK) - The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define your cloud application resources using familiar programming languages.
+ * ==> AWS Serverless Application Model (SAM) - The AWS Serverless Application Repository is a managed repository for serverless applications. It enables teams, organizations, and individual developers to store and share reusable applications, and easily assemble and deploy serverless architectures in powerful new ways
+ * ==> CloudFront Key Pairs - IAM users can't create CloudFront key pairs. You must log in using root credentials to create key pairs.
+ * ==> A Load Balancer can target EC2 instances only within an AWS Region.
+ * ==> Backlog per instance: To calculate your backlog per instance, start with the ApproximateNumberOfMessages queue attribute to determine the length of the SQS queue (number of messages available for retrieval from the queue). Divide that number by the fleet's running capacity, which for an Auto Scaling group is the number of instances in the InService state, to get the backlog per instance.
+ * ==> A Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines.
+ * ==> AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like AWS DynamoDB, Lambda, and more
+ * ==> AWS Secrets Manager enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle
+ * ==> WS Key Management Service (KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications
+ * ==> S3 Object Lock enables you to store objects using a "Write Once Read Many" (WORM) model.
+ * ==> ALB access logs - Elastic Load Balancing provides access logs that capture detailed information about requests sent to your load balancer.
+ * ==> AWS requires approximately 5 weeks of usage data to generate budget forecasts
+ * ==> IAM policy variables, Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy).
+ * ==> IAM policy principal - You can use the Principal element in a policy to specify the principal that is allowed or denied access to a resource
+ * ==> Key pairs - Key pairs consist of a public key and a private key. You use the private key to create a digital signature, and then AWS uses the corresponding public key to validate the signature
+ *
  *
  *
  *

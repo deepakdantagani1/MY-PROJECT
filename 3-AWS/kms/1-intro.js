@@ -1,4 +1,7 @@
 /**
+ *
+ * kms is regional, cms
+ *
  * AWS key management service
  *
  * ==> managed service that makes it easy to create and control the encryption key used to encrypt the data

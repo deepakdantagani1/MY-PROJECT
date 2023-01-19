@@ -1,4 +1,7 @@
 /**
+ *
+ * ondemand instance, reserved, convertable reserved, scheaduled reserve, spot instance, dedicated instance, dedicated host
+ *
  * on demand instances: short workload, predictable pricing
  * pay for what you use(billing per sec, after the first min)
  * has the highest cost but no upfront payment

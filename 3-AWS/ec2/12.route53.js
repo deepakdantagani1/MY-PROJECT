@@ -1,4 +1,7 @@
 /**
+ *
+ * route53, DNS, ttl for route 53, records type, hosted zones, routing policies, healthchecks
+ *
  * route 53 is a amazon dns server
  * allows to map a domain names that we own to ec2, load balancers, s3 buckets
  *
