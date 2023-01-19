@@ -5,6 +5,7 @@
  *
  * ==> AWS recommends that you use multipart upload for any files that are greater than 100 MB in size, instead of uploading the object in a single operation.
  * ==> What is the maximum size of an S3 object? 5tb
+ * ==> What is the largest size file you can transfer to S3 using a PUT operation? 5 GB
  * ==> list of serverless and non server less
  * The following AWS technologies are serverless: DynamoDB, API Gateway, SNS, Lambda, Kinesis, and S3.
  * ==> Read/write capacity mode, make sure to check kb and sec
@@ -78,7 +79,7 @@
  * ==> IAM policy variables, Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy).
  * ==> IAM policy principal - You can use the Principal element in a policy to specify the principal that is allowed or denied access to a resource
  * ==> Key pairs - Key pairs consist of a public key and a private key. You use the private key to create a digital signature, and then AWS uses the corresponding public key to validate the signature
- *
+ * ==> Amazon EventBridge is a serverless event bus service offered by Amazon Web Services (AWS) that allows you to easily connect applications together using events. It is designed to make it easy to build event-driven architectures and to integrate AWS services and third-party services with each other.
  *
  *
  *

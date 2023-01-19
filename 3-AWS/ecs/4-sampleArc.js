@@ -1,4 +1,7 @@
 /**
+ *
+ * event bridge, event bridge scheadule, SQS queue, ecs service auto scaling, tasks, task role
+ *
  * ECS tasks involved with event bridge
  * https://share.icloud.com/photos/0546it_Lrqqcbf5MCl8HkJyhA
  *

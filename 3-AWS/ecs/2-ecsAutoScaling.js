@@ -1,4 +1,7 @@
 /**
+ *
+ * ecs autoscaling, != ec2 auto scalong, scaling tasks inside ecs cluster.
+ *
  * https://share.icloud.com/photos/025HJrtReCQPT3Kj4s5u-aiFA
  *
  * ----ECS auto scaling----

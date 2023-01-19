@@ -1,4 +1,10 @@
 /**
+ *
+ * ALB(ec2 launchtype), dynamic host mapping, security in ec2
+ * ALB(fargate), each task has a inique private IP,  only define the container post(host post is not applicable)
+ * one IAM role for each task
+ * env veriables, secreate manager, SSM parmater store, s3
+ *
  * https://share.icloud.com/photos/0b4qn7BsMdSRZJznOKG6Icb-g
  * ECS - loadbalancing (ecs launchtype)
  * ==> we get a dynamic host port mapping if we define only the container port in the task definition

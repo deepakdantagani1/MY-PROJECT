@@ -1,5 +1,16 @@
 /**
  *
+ * ecs, ecs cluster, ecs instances, ecs tasks, ecs agent, fargate launch type, ec2 instance profile, task role for each, efs files, fargate + efs == serverless,
+ * ecs autoscaling, != ec2 auto scalong, scaling tasks inside ecs cluster.
+ * rolling update, minimum healthy percent, maximum percent
+ * event bridge, event bridge scheadule, SQS queue, ecs service auto scaling, tasks, task role
+ * task definition
+ *
+ * ALB(ec2 launchtype), dynamic host mapping, security in ec2
+ * ALB(fargate), each task has a inique private IP,  only define the container post(host post is not applicable)
+ * one IAM role for each task
+ * env veriables, secreate manager, SSM parmater store, s3
+ *
  * https://share.icloud.com/photos/0aey1kC6Wzw8MzdkJoRABJhLQ
  *
  * ecs ==> elastic container service
@@ -37,8 +48,4 @@
  * ==> fargate + efs == serverless
  * ==> use cases: persistent multi-az shared storate for containers
  * ==> note: amazon s3 cannot be mounted as a file system
- *
- *
- *
- *
  */
