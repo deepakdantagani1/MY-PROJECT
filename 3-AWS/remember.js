@@ -80,7 +80,19 @@
  * ==> IAM policy principal - You can use the Principal element in a policy to specify the principal that is allowed or denied access to a resource
  * ==> Key pairs - Key pairs consist of a public key and a private key. You use the private key to create a digital signature, and then AWS uses the corresponding public key to validate the signature
  * ==> Amazon EventBridge is a serverless event bus service offered by Amazon Web Services (AWS) that allows you to easily connect applications together using events. It is designed to make it easy to build event-driven architectures and to integrate AWS services and third-party services with each other.
- *
- *
+ * ==> Security Token Service (STS) which is a service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users).
+ * ==> AWS Secrets Manager vs KMS
+ * ==> AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
+ * ==> hooks used To specify code, scripts, or functions that you want to run at set points in the deployment lifecycle.
+ * ==> status codes
+ * throttling error (429 status code).
+ * 200
+ * 5XX error indicates a server-side error,
+ * 4XX error indicates a client-side error.
+ * 504 status code is a Gateway Timeout
+ * ==> Basic monitoring is enabled by default. Data is available automatically in 5-minute periods at no charge.
+ * ==> You need to publish a custom metric to handle application-specific events. If you want to collect metrics at 10-second intervals, you need to use high-resolution metrics.
+ * ==> By default, API Gateway limits the steady-state request rate to 10,000 requests per second. The 429 error means that the application is generating too many requests and is being throttled.
+ * ==> A status of ALARM indicates that the metric or expression is outside of the defined threshold.
  *
  */
