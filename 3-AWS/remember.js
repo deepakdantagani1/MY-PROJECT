@@ -1,8 +1,4 @@
 /**
- * -- scaling policies ---
- * ==> dynamic scaling policies (target tracking, like avg cup stay around 40%) (simple/step scaling, clpud watch alarm) (scheaduled actions)
- * ==> predictive scaling ()
- *
  * ==> AWS recommends that you use multipart upload for any files that are greater than 100 MB in size, instead of uploading the object in a single operation.
  * ==> What is the maximum size of an S3 object? 5tb
  * ==> What is the largest size file you can transfer to S3 using a PUT operation? 5 GB
@@ -66,23 +62,24 @@
  * ==> X-Ray sampling, By customizing sampling rules, you can control the amount of data that you record, and modify sampling behavior on the fly without modifying or redeploying your code
  * ==> AWS Cloud Development Kit (CDK) - The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define your cloud application resources using familiar programming languages.
  * ==> AWS Serverless Application Model (SAM) - The AWS Serverless Application Repository is a managed repository for serverless applications. It enables teams, organizations, and individual developers to store and share reusable applications, and easily assemble and deploy serverless architectures in powerful new ways
- * ==> CloudFront Key Pairs - IAM users can't create CloudFront key pairs. You must log in using root credentials to create key pairs.
- * ==> A Load Balancer can target EC2 instances only within an AWS Region.
+ * ==> ---CloudFront Key Pairs--- - IAM users can't create CloudFront key pairs. You must log in using ---root credentials--- to create key pairs.
+ * ==> ****A Load Balancer can target EC2 instances only within an AWS Region***.
+ * ===> ***Global Accelerator which is a global load balancer***
  * ==> Backlog per instance: To calculate your backlog per instance, start with the ApproximateNumberOfMessages queue attribute to determine the length of the SQS queue (number of messages available for retrieval from the queue). Divide that number by the fleet's running capacity, which for an Auto Scaling group is the number of instances in the InService state, to get the backlog per instance.
- * ==> A Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines.
- * ==> AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like AWS DynamoDB, Lambda, and more
- * ==> AWS Secrets Manager enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle
- * ==> WS Key Management Service (KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications
- * ==> S3 Object Lock enables you to store objects using a "Write Once Read Many" (WORM) model.
- * ==> ALB access logs - Elastic Load Balancing provides access logs that capture detailed information about requests sent to your load balancer.
- * ==> AWS requires approximately 5 weeks of usage data to generate budget forecasts
- * ==> IAM policy variables, Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy).
- * ==> IAM policy principal - You can use the Principal element in a policy to specify the principal that is allowed or denied access to a resource
+ * ==> A ---Docker swarm--- is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines.
+ * ==> ---AWS AppSync--- is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like AWS DynamoDB, Lambda, and more
+ * ==> AWS ---Secrets Manager--- enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle
+ * ==> AWS ---Key Management Service (KMS)--- makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications
+ * ==> ---S3 Object Lock--- enables you to store objects using a "Write Once Read Many" (WORM) model.
+ * ==> ---ALB access logs--- - Elastic Load Balancing provides access logs that capture detailed information about requests sent to your load balancer.
+ * ==> AWS requires approximately ---5 weeks--- of usage data to generate budget forecasts
+ * ==> ---IAM policy variables---, Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy).
+ * ==> ---IAM policy principal--- - You can use the Principal element in a policy to specify the principal that is ---allowed or denied--- access to a resource
  * ==> Key pairs - Key pairs consist of a public key and a private key. You use the private key to create a digital signature, and then AWS uses the corresponding public key to validate the signature
- * ==> Amazon EventBridge is a serverless event bus service offered by Amazon Web Services (AWS) that allows you to easily connect applications together using events. It is designed to make it easy to build event-driven architectures and to integrate AWS services and third-party services with each other.
- * ==> Security Token Service (STS) which is a service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users).
+ * ==> ---Amazon EventBridge--- is a serverless event bus service offered by Amazon Web Services (AWS) that allows you to easily connect applications together using events. It is designed to make it easy to build event-driven architectures and to integrate AWS services and third-party services with each other.
+ * ==> ---Security Token Service (STS)--- which is a service that enables you to request ---temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users--- or for users that you authenticate (federated users).
  * ==> AWS Secrets Manager vs KMS
- * ==> AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
+ * ==> AWS ---Cloud9--- is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
  * ==> hooks used To specify code, scripts, or functions that you want to run at set points in the deployment lifecycle.
  * ==> status codes
  * throttling error (429 status code).
@@ -90,9 +87,10 @@
  * 5XX error indicates a server-side error,
  * 4XX error indicates a client-side error.
  * 504 status code is a Gateway Timeout
- * ==> Basic monitoring is enabled by default. Data is available automatically in 5-minute periods at no charge.
- * ==> You need to publish a custom metric to handle application-specific events. If you want to collect metrics at 10-second intervals, you need to use high-resolution metrics.
- * ==> By default, API Gateway limits the steady-state request rate to 10,000 requests per second. The 429 error means that the application is generating too many requests and is being throttled.
- * ==> A status of ALARM indicates that the metric or expression is outside of the defined threshold.
+ * 429 error means that the application is generating too many requests
+ * ==> Basic monitoring is enabled by default. Data is available automatically in ---5-minute--- periods at no charge.
+ * ==> You need to publish a custom metric to handle application-specific events. If you want to collect metrics at ---10-second intervals---, you need to use ---high-resolution metrics---.
+ * ==> By default, API Gateway limits the steady-state request rate to ---10,000 requests per second---. The 429 error means that the application is generating too many requests and is being throttled.
+ * ==> A status of ---ALARM--- indicates that the metric or expression is outside of the defined threshold.
  *
  */
