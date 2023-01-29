@@ -1,4 +1,9 @@
 /**
+ *
+ * 24 hrs to 7 days retention, shards, kinesis data stream, kinesis data firehose,kinesis data analytics, kinesis video streams
+ * partition key, sequence number, shared consumers, enhanced consumers, kinesis client library (Dynamo DB),
+ * provisioned mode, on-demand mode,
+ *
  * famaly of services which enables to collect, process, and analyze streaming data in realtime
  * 24hrs, 7 days retention
  * data stored in shards

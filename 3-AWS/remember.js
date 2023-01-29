@@ -92,5 +92,41 @@
  * ==> You need to publish a custom metric to handle application-specific events. If you want to collect metrics at ---10-second intervals---, you need to use ---high-resolution metrics---.
  * ==> By default, API Gateway limits the steady-state request rate to ---10,000 requests per second---. The 429 error means that the application is generating too many requests and is being throttled.
  * ==> A status of ---ALARM--- indicates that the metric or expression is outside of the defined threshold.
+ * ==> Reserved Instance discount for a total of 3600 seconds per clock-hour; instance usage that exceeds 3600 seconds in a clock-hour is billed at the On-Demand rate.
+ * ==> appspec.yml ==> deployment on EC2 instances via AWS CodeCommit and AWS CodeDeploy
+ * ==>  .ebextensions/ ==> AWS Elastic Beanstalk for deployment
+ * ==> sqs queue ==> approximately 120,000 inflight messages, but no limit for storing
+ * ==> An SSH key is a type of authentication method used to secure access to a server or other computer. It uses a pair of unique cryptographic keys, one private and one public, to encrypt and decrypt data transmitted over a network
+ * ==> AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications.
+ * ==> in lambda, we can configure Application Auto Scaling to manage provisioned concurrency on a schedule or based on utilization
+ * ==> DynamoDB uses eventually consistent reads by default. Read operations (such as GetItem, Query, and Scan) provide a ConsistentRead parameter. If you set this parameter to true, DynamoDB uses strongly consistent reads during the operation
+ * ==> By default, basic monitoring is enabled when you use the AWS Management Console to create a launch template or launch configuration
+ * ==> The maximum ratio of provisioned IOPS to requested volume size (in GiB) is 50:1
+ * ==> CloudFormation currently supports the following parameter types:
+ * String – A literal string
+ * Number – An integer or float
+ * List<Number> – An array of integers or floats
+ * CommaDelimitedList – An array of literal strings that are separated by commas
+ * AWS::EC2::KeyPair::KeyName – An Amazon EC2 key pair name
+ * AWS::EC2::SecurityGroup::Id – A security group ID
+ * AWS::EC2::Subnet::Id – A subnet ID
+ * AWS::EC2::VPC::Id – A VPC ID
+ * list<AWS::EC2::VPC::Id> – An array of VPC IDs
+ * List<AWS::EC2::SecurityGroup::Id> – An array of security group IDs
+ * List<AWS::EC2::Subnet::Id> – An array of subnet IDs
+ * ==> DynamoDB has two built-in backup methods (On-demand, Point-in-time recovery) that write to Amazon S3, but you will not have access to the S3 buckets that are used for these backups.
+ * ==> AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.
+ * ==> Hive is a data warehousing and SQL-like querying tool that runs on top of Hadoop. Amazon EMR (Elastic MapReduce) is a managed service that makes it easy to process big data using Hadoop and other big data processing frameworks, such as Hive.
+ * ==> AWS Data Pipeline is a web service that helps you reliably process and move data between data stores. It allows you to define data-driven workflows, called pipelines, to perform tasks such as scheduling regular data movement and data processing activities.
+ * ==> AWS CodeDeploy rolls back deployments by redeploying a previously deployed revision of an application as a new deployment on the failed instances.
+ * ==> While AWS KMS does support sending data up to 4 KB to be encrypted directly, envelope encryption can offer significant performance benefits.
+ * When you encrypt data directly with AWS KMS it must be transferred over the network.
+ * Envelope encryption reduces the network load since only the request and delivery of the much smaller data key go over the network.
+ * The data key is used locally in your application or encrypting AWS service, avoiding the need to send the entire block of data to AWS KMS and suffer network latency.
+ * ==> Drift detection in AWS refers to the process of identifying and tracking changes to the configuration of an AWS resource, such as an Amazon RDS database or an Amazon S3 bucket.
+ * ==> VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
+ * ==> When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to the failure of any single hardware component
+ *
+ *
  *
  */

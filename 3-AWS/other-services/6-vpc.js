@@ -1,6 +1,6 @@
 /**
  *
- * VPC, subnet, internet gateway, NAT gateway, NACL, security groups, peering, vpc end point, vpc endpoint gatewya, vpc endpoint interface, VPF flow logs
+ * VPC, subnet, internet gateway, NAT gateway, NACL, security groups, peering, vpc end point, vpc endpoint gateway, vpc endpoint interface, VPF flow logs
  *
  * all topics ==> https://share.icloud.com/photos/043LYY0UThlaFj2eaRejG0Z7w
  * 3 tire arc ==> https://share.icloud.com/photos/018tygzMJ3u-t35hc7xk3nmNg
