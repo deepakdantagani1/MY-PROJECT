@@ -75,6 +75,7 @@
  * ==> AWS requires approximately ---5 weeks--- of usage data to generate budget forecasts
  * ==> ---IAM policy variables---, Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy).
  * ==> ---IAM policy principal--- - You can use the Principal element in a policy to specify the principal that is ---allowed or denied--- access to a resource
+ * ==> With the IAM policy simulator, you can test and troubleshoot IAM and resource-based policies attached to IAM users, groups, or roles in your AWS account. You can test which actions are allowed or denied by the selected policies for specific resources.
  * ==> Key pairs - Key pairs consist of a public key and a private key. You use the private key to create a digital signature, and then AWS uses the corresponding public key to validate the signature
  * ==> ---Amazon EventBridge--- is a serverless event bus service offered by Amazon Web Services (AWS) that allows you to easily connect applications together using events. It is designed to make it easy to build event-driven architectures and to integrate AWS services and third-party services with each other.
  * ==> ---Security Token Service (STS)--- which is a service that enables you to request ---temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users--- or for users that you authenticate (federated users).
@@ -122,11 +123,16 @@
  * ==> While AWS KMS does support sending data up to 4 KB to be encrypted directly, envelope encryption can offer significant performance benefits.
  * When you encrypt data directly with AWS KMS it must be transferred over the network.
  * Envelope encryption reduces the network load since only the request and delivery of the much smaller data key go over the network.
+ * ==> When you encrypt your data, your data is protected, but you have to protect your encryption key. One strategy is to encrypt it. Envelope encryption is the practice of encrypting plaintext data with a data key, and then encrypting the data key under another key.
  * The data key is used locally in your application or encrypting AWS service, avoiding the need to send the entire block of data to AWS KMS and suffer network latency.
  * ==> Drift detection in AWS refers to the process of identifying and tracking changes to the configuration of an AWS resource, such as an Amazon RDS database or an Amazon S3 bucket.
  * ==> VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
  * ==> When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to the failure of any single hardware component
- *
- *
+ * ==> All DynamoDB tables are encrypted at rest using an AWS-owned CMK by default. Non-encrypted DynamoDB tables are no longer supported in AWS. You have the option to pick an alternative AWS or Customer Managed KMS key if required.
+ * ==> Cognito enables developers to remember the devices on which end-users sign in to their application.
+ * You can see the remembered devices and associated metadata through the console.
+ * In addition, you can build custom functionality using the notion of remembered devices.
+ * For example, with a content distribution application (e.g., video streaming),
+ * you can limit the number of devices from which an end-user can stream their content.
  *
  */

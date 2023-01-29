@@ -1,4 +1,7 @@
 /**
+ *
+ *
+ *
  * ==> enables web services application to quickly and reliably queue messages that one component in the application
  * grnerates for another componebt to consume
  * ==> queue is a trmpory repo for messages awating processing
