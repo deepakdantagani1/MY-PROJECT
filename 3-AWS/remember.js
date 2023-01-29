@@ -134,5 +134,19 @@
  * In addition, you can build custom functionality using the notion of remembered devices.
  * For example, with a content distribution application (e.g., video streaming),
  * you can limit the number of devices from which an end-user can stream their content.
+ * ==> CodeDeploy interacts with EC2 via the CodeDeploy agent,
+ * which must be installed and running on the EC2 instance.
+ * During a deployment, the CodeDeploy agent running on EC2 pulls the source code from CodeCommit.
+ * The EC2 instance accesses CodeCommit using the permissions defined in its instance profile role;
+ * therefore, it is the EC2 instance itself that needs CodeCommit access.
+ * The specific CodeCommit permission needed to pull code is codecommit:GitPull.
+ * ==> CodeDeploy doesn't support deployments to EKS pods, either hosted on EC2 or Fargate.
+ * ==> DeletionPolicy attribute can be used to preserve a specific resource when its stack is deleted. The Retain option can be used to ensure AWS CloudFormation keeps the resource.
+ * ==> Elastic Beanstalk supports custom AMIs via Packer.
+ * This would allow the legacy application to be wrapped in a layer of abstraction such that
+ * Elastic Beanstalk itself would not need to support the specific language of the legacy application.
+ *
+ *
+ *
  *
  */
