@@ -1,6 +1,8 @@
 /**
  *
- * api gateway,
+ * api gateway, web socket protocal, cache, expose any AWS service, canaryDeployment, swagger, usage palns, CORS
+ * mapping templates, api proxy, http proxy
+ * security with sig v4, lambda auth, cognito,
  *
  * ---architecture---
  * https://share.icloud.com/photos/0e4c-6ki1UgzbI57b2Nf26Naw
