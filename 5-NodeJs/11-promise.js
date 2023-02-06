@@ -10,8 +10,6 @@ let promise2 = new Promise((resolve, reject)=>{
     resolve(`promice2`)
     console.log(`4`)
 });
-
-
 // promise1.then((result)=>{
 //     console.log('5');
 //     console.log(result);

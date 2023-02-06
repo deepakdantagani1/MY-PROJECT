@@ -1,5 +1,8 @@
 /* eslint-disable no-unused-vars */
 
+// reverse(), isArray(), concat(), every(), filter(), reduce(), find(), findIndex(), forEach, Includes(), indexOf()
+// map()
+
 //array.reverse();
 
 //The Array.isArray() method determines whether the passed value is an Array

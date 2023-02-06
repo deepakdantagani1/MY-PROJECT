@@ -145,6 +145,22 @@
  * ==> Elastic Beanstalk supports custom AMIs via Packer.
  * This would allow the legacy application to be wrapped in a layer of abstraction such that
  * Elastic Beanstalk itself would not need to support the specific language of the legacy application.
+ * ==> A permissions boundary in AWS is a security control that allows you to set the maximum permissions
+ * that an IAM user, group, or role can have. It acts as an advanced restriction on the permissions granted in an
+ * IAM policy, allowing you to limit the actions a user can perform. Permissions boundaries are useful in
+ * situations where you need to grant an IAM entity the minimum permissions necessary to perform its tasks,
+ * but you also want to ensure that it cannot escalate its permissions beyond what you have explicitly allowed.
+ * ==> AWS Fargate is a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
+ * ==> Using a cross-Region Read Replica can help ensure that you get back up and running if you experience a regional availability issue.
+ * ==> Automated backups are limited to a single AWS Region while manual snapshots and Read Replicas are supported across multiple Regions.
+ * ==> Database cloning is only available for Aurora
+ * ==> Application Load Balancers, cross-zone load balancing is always enabled.
+ * ==> With S3 Object Ownership, any new objects that are written by other accounts with the
+ * bucket-owner-full-control canned access control list (ACL) automatically become owned by the bucket owner,
+ * who then has full control of the objects.
+ * ==> terminated the container instance while it was in STOPPED state, that lead to this synchronization issues
+ *
+ *
  *
  *
  *
