@@ -159,6 +159,7 @@
  * bucket-owner-full-control canned access control list (ACL) automatically become owned by the bucket owner,
  * who then has full control of the objects.
  * ==> terminated the container instance while it was in STOPPED state, that lead to this synchronization issues
+ * ==> max message size of SQS is 256KB
  *
  *
  *
