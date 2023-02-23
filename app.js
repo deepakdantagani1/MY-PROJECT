@@ -31,10 +31,16 @@ const helmet = require('helmet');
 const session = require('express-session');
 const urlParser = require('parseurl');
 const cookieParser = require('cookie-parser');
-const {add, get} = require('./redis')
+const {add, get} = require('./redis');
+const { MongoClient } = require('mongodb');
+const Kafka = require('node-rdkafka');
+console.log(Kafka.features);
 
 //lode config file
 dotenv.config({ path: './config/config.env' });
+
+const url = 'mongodb://localhost:27017';
+const client = new MongoClient(url);
 
 //veriables or objects declerations
 //returns a express server instance

@@ -10,3 +10,11 @@
 //space complexity of a hashmap or set on the cahr is constant, at it has only 26 chars
 
 //for all the solutions of the hashmap, check if it is possible to reduse the soluctionto hashset
+
+/**
+ * if we need a value that alerady iterated, think of hashmap or hashset
+ */
+
+/**
+ * map methods ==> has, get, delete, set in javascript
+ */
