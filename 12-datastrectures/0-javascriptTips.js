@@ -10,3 +10,13 @@
 /**
  * string method chatAt(); not getChar
  */
+
+/**
+ * to calculate the middle
+ * mid = low + Math.floor((high-low)/2);
+ */
+
+/**
+ * init a veribale in the scope if not used outside, example mid value
+ */
+
