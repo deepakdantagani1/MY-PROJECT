@@ -2,7 +2,8 @@
  * @param {number[]} height
  * @return {number}
  * use Math.min() to get the min value
- *
+ * timecomplexity = o(n);
+ * space compaxity = o(1);
  */
 var maxArea = function(height) {
     // let maxArea = 0;
