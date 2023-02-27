@@ -52,7 +52,8 @@ let gropedPeople = people.reduce((acc, initialvalue)=>{
     }
     return acc;
 },{});
-//console.log(gropedPeople);
+
+console.log(gropedPeople);
 
 //Bonding arrays contained in an array of objects using the spread operator and initialValue
 let books = ['first book'];
@@ -83,6 +84,8 @@ let noDupilcatesArray = myArray.reduce((acc, init)=>{
     if(acc.indexOf(init) === -1 ) acc.push(init)
     return acc;
 },[])
+
+
 
 //console.log(noDupilcatesArray);
 

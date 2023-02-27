@@ -37,7 +37,7 @@
  * data types
  */
 
-
+//take more example before write the logic
 //understand the constructor, once instaintiated, it should have all the info
 // dont use ! for null checks in java
 //to iterate a string, use substring to access each char

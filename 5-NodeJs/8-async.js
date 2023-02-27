@@ -90,26 +90,86 @@
 // 1, 2,
 
 
-async function function1(){
-    console.log(`inside function1`);
-    return 'function1'
+// async function function1() {
+//     console.log(`inside function1`);
+//     setTimeout(()=>{
+//         Promise.resolve('function1')
+//     }, 2000);
+// }
+
+// function function1() {
+//     return new Promise(resolve => {
+//         setTimeout(() => {
+//             console.log(`inside function1`);
+//             resolve('function1');
+//         }, 2000);
+//     });
+// }
+
+// async function function2(data) {
+//     console.log('inside function2');
+//     return data;
+// }
+// async function function3() {
+//     console.log('inside function3');
+//     return 'function3'
+// }
+
+// console.log(`1`);
+// (async () => {
+//     console.log(await function1().then(data => function2(data).then()));
+//     //console.log(await function1().then(data => function2(data)));
+
+//     console.log(await function3())
+// })();
+
+// console.log(`2`);
+
+
+// async function returnDataAfterSomeTime(){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             resolve('data')
+//         }, 2000)
+//     })
+// }
+
+
+// const promiseFunction = () =>{
+//     return new Promise((resolve, reject) => {
+//         setTimeout(()=>{
+//             console.log('inside setTimeOut');
+//             resolve('data');
+//         }, 2000);
+//     });
+// }
+
+// // promiseFunction()
+// //     .then(data => console.log(data))
+// //     .catch(error => console.log(error));
+
+
+
+// (async() => {
+//     try {
+//         console.log(await promiseFunction());
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }) ();
+
+
+function getData(callback){
+    setTimeout(() =>{
+        callback(null, 'data')
+    }, 2000);
 }
 
-async function function2(){
-    console.log('inside function2');
-    return 'function2'
+function printToConsole(error, data){
+    if(error) console.log(error)
+    else console.log(data);
 }
 
-console.log(`1`);
-(async() =>{
-    console.log(await function1())
-    console.log(await function2())
-})();
-
-console.log(`2`);
-
-
-
-
+getData(printToConsole);
 
 
