@@ -19,9 +19,9 @@ Object.keys(a); // ["one"]
 Object.getOwnPropertyNames(a); // ["one", "two"]
  * )
  *
- * 
+ *
  * deep-equal ==> compare two objects in JavaScript
- * 
+ *
  * WeakMap
  * (WeakMaps provide a way to extend objects from the outside without interfering with garbage collection. Whenever you want to extend an object but can't because it is sealed - or from an external source - a WeakMap can be applied.
 WeakMap is only available for ES6 and above. A WeakMap is a collection of key and value pairs where the key must be an object.
@@ -37,9 +37,26 @@ var gabrielFranco = {
 map.set(pavloHero, "This is Hero");
 map.set(gabrielFranco, "This is Franco");
 console.log(map.get(pavloHero)); //This is Hero)
- * 
- * 
+ *
+ *
  * froEach() vs map() creating a new array as a result.
- * 
- * 
+ *
+ *
  */
+
+function increment(object){
+    if(object === undefined){
+        object += 1
+    } else {
+        object += 1
+    }
+    return object;
+}
+
+const a = increment(1);
+const b = increment({a:1});
+
+console.log(undefined + 1)
+
+console.log(a);
+console.log(b.a);
