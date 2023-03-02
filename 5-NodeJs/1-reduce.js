@@ -5,29 +5,46 @@
  * spread operator can be used in both arrays and objects
  */
 
-//Sum all the values of an array
+/**
+ * Sum all the values of an array
+ */
+
 const array1 = [0, 1, 2, 3];
 const totalSum = array1.reduce((accumulator, currentvalue) => {
     return accumulator + currentvalue;
 })
 //console.log(totalSum);
+const totalSum34 = array1.reduce((accumulator, currentvalue)=> accumulator + currentvalue, 0)
+//console.log(totalSum34);
 
-//Sum of values in an object array
+/**
+ * Sum of values in an object array
+ */
 let initialvalue = 0;
-let objectArray = [{x: 1}, {x: 2}, {x: 3}];
-let totalSum1 = objectArray.reduce((accumulator, currentvalue)=>{
-    return accumulator + currentvalue.x;
-}, initialvalue);
+let objectArray234 = [{x: 1}, {x: 2}, {x: 3}];
+// let totalSum1 = objectArray.reduce((accumulator, currentvalue)=>{
+//     return accumulator + currentvalue.x;
+// }, initialvalue);
 //console.log(totalSum1)
+const totalSum2345 = objectArray234.reduce((accumulator, currentvalue) => {
+    return accumulator + currentvalue.x}, 0);
+//console.log(totalSum2345)
 
-//Flatten an array of arrays
+/**
+ * Flatten an array of arrays
+ */
 let unFlatternArray = [[0, 1], [2, 3], [4, 5]];
 let flatarray = unFlatternArray.reduce((newArray, currentvalue) =>{
     return newArray.concat(currentvalue);
 }, [])
 //console.log(flatarray)
+const flatArray = unFlatternArray.reduce((accumulator, currentvalue)=> accumulator.concat(currentvalue), [])
+//console.log(flatArray);
 
-//Counting instances of values in an object
+/**
+ * Counting instances of values in an object
+ */
+
 let names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
 let countingInstance = names.reduce((instance, initialvalue)=>{
     //console.log(`${JSON.stringify(instance)}, ${initialvalue}`);
@@ -35,9 +52,18 @@ let countingInstance = names.reduce((instance, initialvalue)=>{
     else instance[initialvalue] = 1
     return instance;
 },{});
-//console.log(countingInstance);
 
-//Grouping objects by a property
+const instanceCount = names.reduce((accumulator, currentvalue) => {
+    if(currentvalue in accumulator) accumulator[currentvalue]++;
+    else accumulator[currentvalue] = 1;
+    return accumulator;
+}, {})
+//console.log(instanceCount);
+
+/**
+ * Grouping objects by a property
+ */
+
 let people = [
     { name: 'Alice', age: 21 },
     { name: 'Max', age: 20 },
@@ -53,9 +79,18 @@ let gropedPeople = people.reduce((acc, initialvalue)=>{
     return acc;
 },{});
 
-console.log(gropedPeople);
+const groupedPpl = people.reduce((accumulator, currentvalue)=>{
+    if(currentvalue.age in accumulator) accumulator[currentvalue.age].push(currentvalue.name);
+    else accumulator[currentvalue.age] = [currentvalue.name];
+    return accumulator;
+}, {})
 
-//Bonding arrays contained in an array of objects using the spread operator and initialValue
+//console.log(groupedPpl);
+
+/**
+ * Bonding arrays contained in an array of objects using the spread operator and initialValue
+ */
+
 let books = ['first book'];
 
 let friends = [{
@@ -76,17 +111,22 @@ let updatedBooks = friends.reduce((acc, init)=>{
     return [...acc, ...init.books];
 },books)
 
+
+const updatedBooks1 = friends.reduce((accumulator, currentvalue) => [...accumulator, ...currentvalue.books], books);
+
 //console.log(updatedBooks);
 
+/**
+ * remove duplicates
+ */
 //Remove duplicate items in an array
 let myArray = ['a', 'b', 'a', 'b', 'c', 'e', 'e', 'c', 'd', 'd', 'd', 'd'];
 let noDupilcatesArray = myArray.reduce((acc, init)=>{
     if(acc.indexOf(init) === -1 ) acc.push(init)
     return acc;
-},[])
+},[]);
 
-
-
-//console.log(noDupilcatesArray);
+const noDupilcatesArray111 = new Set(myArray);
+console.log(Array.from(noDupilcatesArray111));
 
 
