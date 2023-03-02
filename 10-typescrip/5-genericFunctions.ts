@@ -20,7 +20,7 @@ function cloneGeneric<T>(source: T): T {
 const a: Contact = {
   id: 234,
   name: "string",
-  status: "closed"
+  status: "active"
 }
 
 const f: Contact = clone(a);

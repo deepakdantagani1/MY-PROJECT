@@ -21,7 +21,7 @@ interface Address {
 interface Contact {
     id: number;
     name: string;
-    status?: ContactStatus;
+    status?: ContactStatus1;
     address?: Address;
 }
 
