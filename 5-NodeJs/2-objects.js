@@ -11,7 +11,9 @@
 //The Object.values() method returns an array of a given object's own enumerable property values
 
 
-
+/**
+ * create a new object
+ */
 const person = {
     isHuman: false,
     printIntroduction: function() {
@@ -172,8 +174,8 @@ const removeObj = (obj, prop) => {
   return propFound;
 };
 
-console.log(removeObj(object19, 'a'));
-console.log(object19)
+// console.log(removeObj(object19, 'a'));
+// console.log(object19)
 
 
 

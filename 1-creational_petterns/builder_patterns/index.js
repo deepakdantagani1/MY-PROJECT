@@ -4,6 +4,7 @@ const PersonalBuilder = require('./PersonBuilder');
 const deepak = new PersonalBuilder('deepak')
     .makeEmployee()
     .makeManager(60)
+    .build();
 //shopper
 console.log(deepak.toString());
 
