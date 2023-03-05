@@ -28,8 +28,10 @@ me.isHuman = true; // inherited properties can be overwritten
 
 //me.printIntroduction();// expected output: "My name is Matthew. Am I human? true"
 
+/**
+ * delete a value from an object
+ */
 
-//delete a value from an object
 let spaceship = {
     'Fuel Type' : 'Turbo Fuel',
     homePlanet : 'Earth',
@@ -40,10 +42,14 @@ let spaceship = {
 
 delete spaceship.color;
 delete spaceship['Secret Mission'];
+delete spaceship.homePlanet;
 
 //console.log(spaceship);
 
-//methods in the objects
+
+/**
+ * methods in the object
+ */
 let methods = {
     'Fuel Type' : 'Turbo Fuel',
     homePlanet : 'Earth',
@@ -51,10 +57,15 @@ let methods = {
     'Secret Mission' : 'Discover life outside of Earth.',
     print(){
         //console.log(this.homePlanet);
+    },
+    setValueToColor(value){
+      this.color = value
     }
 };//methods.print();
 
-//looping through the objects
+/**
+ * loop through  the objects
+ */
 let spaceship1 = {
     crew: {
         captain: {
@@ -83,8 +94,10 @@ for (let crewMember in spaceship1.crew) {
     //console.log(`${spaceship1.crew[crewMember].name}`);
 }
 
-
-//to maintain privacy just give _ to the keu value
+/**
+ * provate veriable _
+ * add getters and setters
+ */
 const backAccount = {
     _amount: 1000,
     // getAmount(){
@@ -116,23 +129,30 @@ const robotFactory = (model, mobile) => {
 const tinCan = robotFactory('P-500', true);
 tinCan.beep();
 
-//Object.entries() returns an array
+/**
+ * Object.entries() returns a list of objects
+ */
 let spaceship2 = {
     'Fuel Type' : 'Turbo Fuel',
     homePlanet : 'Earth',
     color: 'silver',
     'Secret Mission' : 'Discover life outside of Earth.'
-};//console.log(Object.entries(spaceship2));
+};
+
+//console.log(Object.entries(spaceship2));
 
 //object.freeze() ==> this is freeze only outer most key values, but not the innermost and Object.isFrozen() is to validate
 
-//Object.fromEntries() method transforms a list of key-value pairs into an object.
+/**
+ * Object.fromEntries() method transforms a list of key-value pairs into an object.
+ */
+//
 const object1 = { a: 1, b: 2, c: 3 };
 
 let modified = Object.entries(object1).reduce((acc, init)=>{
     acc.push([init[0], init[1]*2])
     return acc;
-},[]);//console.log(Object.fromEntries(modified));
+},[]);console.log(Object.fromEntries(modified));
 
 //Object.getPrototypeOf() method returns the prototype of the specified object.
 const prototype1 = {};
