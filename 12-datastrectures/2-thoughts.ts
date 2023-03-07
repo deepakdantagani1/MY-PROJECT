@@ -63,6 +63,7 @@
 // in mapping, if a is mapped to b, in some cases we need to make sure b is not mapped to any other key too.
 // if the code has multiple of values in the loop, it might have a constraint to max out, so use long and check the range or other solutions
 //for all the solutions of the hashmap, check if it is possible to reduse the soluctionto hashset
+//in binary search, find a reason to reduce the search to half
 
 
 

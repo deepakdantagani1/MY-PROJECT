@@ -1,5 +1,6 @@
 /**
  * reduce the search space by half, then we can use the
+ * find a reson to reduce the search to half
  * find the range
  * if we do x+2 then it is linear time complexity, if we do x*2, this will be a log(x) complexity in the binary search
  * dont implement recursession for the binary search, bacaue it will us the more stack space.
