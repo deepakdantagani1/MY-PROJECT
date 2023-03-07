@@ -2,6 +2,42 @@
 //     return "data";
 // }
 
+async function handler1() {
+    try {
+    //do somethig
+        return 'data';
+    // eslint-disable-next-line no-unreachable
+    } catch (error) {
+        console.log(error);
+        Promise.reject(error)
+    }
+}
+
+async function handler2() {
+    try {
+    //do somethig
+        return 'data1';
+    // eslint-disable-next-line no-unreachable
+    } catch (error) {
+        console.log(error);
+        Promise.reject(error)
+    }
+}
+
+async function handler3() {
+    try {
+        //do somethig
+        console.log(await handler1());
+        console.log(await handler2());
+        return 'secussful'
+    } catch (error) {
+        console.log(error);
+        Promise.reject(error)
+    }
+}
+
+handler3().then(data => console.log(data));
+
 // timeOutFor10Min().then(data => console.log(data));
 
 /**
