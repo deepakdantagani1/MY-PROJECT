@@ -65,6 +65,26 @@
 //for all the solutions of the hashmap, check if it is possible to reduse the soluctionto hashset
 //in binary search, find a reason to reduce the search to half
 
+//-----------------------nexted iteration, then potential solutions-----------------
+/**
+ * hashing
+ * two pointes
+ * sliding windlow
+ * binary search
+ * DP
+ * running sum
+ */
 
+/**
+ * running sum
+ *
+ *  _ _ _ _ _ _ _ _ _ _
+ *  ---a-----
+ *  -----------b-------
+ *           ---(b-a)----
+ *
+ *
+ * handle exception at the buginning
+ */
 
 
