@@ -88,3 +88,26 @@
  */
 
 
+/**
+ * brue force
+ * greedy approach
+ * exastive approach
+ */
+
+/**
+ * dinamic programming
+ * 1. find the subproblems ==> find the repeating pattern, obeseve decision making criteria
+ * 2. find the recursive relation ==> find the relation between the subproblems
+ * 3. find the base case ==>
+ * 4. find the order of the subproblems
+ * 5. find the time complexity
+ * 6. find the space complexity
+ *
+ */
+
+/**
+ * recursion function steps
+ * 1. find the base case ==> find the return/exit condition
+ * 2. find the recursive relation
+ */
+
