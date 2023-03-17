@@ -1,6 +1,8 @@
 /**
  *  variables are a way to parameterize your queries and mutations,
- *  making them more dynamic and reusable. Variables are useful when you want to reuse a query or mutation with different input values, or when you want to avoid constructing complex query strings by concatenating values directly.
+ *  making them more dynamic and reusable. Variables are useful when you want to reuse a query or mutation
+ *  with different input values, or when you want to avoid constructing complex query strings by concatenating
+ *  values directly.
  */
 
 // complex examle
