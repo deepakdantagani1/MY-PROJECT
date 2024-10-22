@@ -1,0 +1,1091 @@
+Based on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+- The most common topics mentioned by guests are the host's responsiveness, the spaciousness of the house, the availability of amenities (such as the grill, pool, and jacuzzi), and the cleanliness of the house.
+- Other common topics include the location of the house, the availability of entertainment activities, the provision of toiletries and other necessities, and the host's recommendations for nearby places to visit.
+
+2) Sentiment Analysis:
+- The sentiment of the comments is predominantly positive, indicating that guests were satisfied with their stay.
+- Positive sentiments are expressed towards the host's responsiveness, the spaciousness of the house, the availability of amenities, the cleanliness of the house, and the host's recommendations.
+- Negative sentiments are expressed towards certain aspects that need improvement, such as outdated property, broken pool table, unpleasant smell upon entry, bathroom flushing issues, lack of handicap accessibility, and unclean patio furniture and gas grill.
+
+3) Ranking:
+Based on the frequency and sentiment analysis, the guest priorities when staying in a house can be ranked as follows:
+
+1) Responsiveness of the host
+2) Spaciousness of the house
+3) Availability of amenities (grill, pool, jacuzzi)
+4) Cleanliness of the house
+5) Location of the house
+6) Availability of entertainment activities
+7) Provision of toiletries and necessities
+8) Host's recommendations for nearby places to visit
+
+Improvement areas:
+- Upgrading the property to address outdated aspects
+- Fixing broken pool table and bathroom flushing issues
+- Ensuring handicap accessibility and safety measures in the showers
+- Cleaning and maintaining patio furniture and gas grill
+- Providing accurate pictures of bedrooms and outside pool/patio area
+
+Overall, guests prioritize a responsive host, spacious and clean accommodations, and the availability of amenities when staying in a house.Ranked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Cleanliness and Maintenance:
+- Frequency: The comments mention the cleanliness of the house, including towels, blankets, and outside furniture. The host also mentions spending a significant amount on repairs, maintenance, and improvements.
+- Sentiment: Positive sentiment regarding cleanliness and maintenance, with guests expressing satisfaction with the condition of the house.
+
+2) Host Responsiveness:
+- Frequency: Multiple comments mention the host's immediate response time and attentiveness to guests' needs.
+- Sentiment: Positive sentiment regarding the host's responsiveness, indicating the importance of quick and helpful communication.
+
+3) Amenities and Entertainment:
+- Frequency: Comments highlight the presence of various amenities, such as a pool table, arcade games, black jack table, and a saltwater pool. Guests appreciate the availability of entertainment options.
+- Sentiment: Positive sentiment regarding the amenities and entertainment provided, indicating their importance in enhancing the guest experience.
+
+4) Space and Group Accommodation:
+- Frequency: Guests mention the spaciousness of the house, suitable for large groups and families.
+- Sentiment: Positive sentiment regarding the ample space available, suggesting the importance of accommodating larger groups comfortably.
+
+5) Value for Price:
+- Frequency: One comment mentions the high price compared to newer homes in the area, expressing disappointment in some aspects not meeting expectations.
+- Sentiment: Mixed sentiment regarding the value for price, with some guests feeling that the price paid did not fully meet their expectations.
+
+6) Accessibility and Handicap-Friendly Features:
+- Frequency: The host clarifies that the house is not advertised as handicap accessible, addressing a guest's confusion.
+- Sentiment: Neutral sentiment regarding accessibility, indicating that it may not be a top priority for most guests.
+
+7) Internet and Technology:
+- Frequency: One guest mentions the internet going down temporarily, affecting TV and streaming capabilities. The host acknowledges occasional internet issues.
+- Sentiment: Mixed sentiment regarding internet reliability, with guests experiencing temporary disruptions.
+
+Note: The ranking is based on the provided comments and may not represent the overall guest priorities universally. Further analysis of a larger dataset would provide more comprehensive insights.Based on the provided Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Preprocess: Clean comments - remove usernames, dates, punctuation. Convert to lowercase and omit stopwords (e.g., "the," "and").
+
+Cleaned comments:
+- He was also disappointed about the volume control on the TV. He did not realize that the volume control was on the side of the Roku remote. It was about 110 degrees during his stay, if I remember correctly, so it was an usually hot August time period. The home has 3 full house HVAC systems, which is normal for a 2 story house. They are well maintained. One of these systems is fairly new. The others get checked out every year. However, we also realize that some guests want it to be cooler, so this is why we added some extra AC units to some of the sleeping areas, and one of the game rooms.
+- We enjoyed our stay from start to finish! You can never be board staying at this home! Kids enjoyed the game room and pool. 10/10!
+- House was great for the group we went with. Lots to do at the house so no one was sitting around bored. Pool was great to get out of the Texas heat.
+- My Family and I had the pleasure of staying at this beautiful very comfortable home felt like we were right at home with so much to do with game room, pool, very comfortable and clean home we would definitely stay again if in Dallas thank you so much
+- Paul’s Place was excellent, everything as pictured. Paul made great recommendations and was very responsive to questions! Everything was clean, we would stay here again!
+- Had a great time. This was the perfect place for our large group.
+- Wonderful stay! Lots to do and very responsive to any questions! Would def stay at again when in town!
+- Paul is an amazing host. He is flexible, responsive and careful. The house is well located, with an amazing ice cream nearby. But the house need improvement. It is dated and you can feel deceived by the photos.
+- Thank you for the kind words. We are so glad you enjoyed your stay. We enjoy the ice cream spot around the corner also. So glad you found it. We hope you all can come back soon. We are always striving to improve our home, thank you for the feedback.
+- This home was perfect for our large family vacation. It really was like a home more than most ab&bs. All the things were there! So many touches, the pool had great shade, the outdoor seating areas were plentiful, plenty of linens, blankets, games galore! There were so many thoughtful touches! It is only 20 minutes from airport, museums, aquariums, great restaurants, all the fun stuff. Shopping areas are very close by for anything forgotten. Nice neighborhood, and the neighbor was very friendly. Host Paul was very quick to answer any questions and very helpful. If you have lots of kids or adults to entertain, this is the spot in the Dallas area.
+- This is a wonderful home.
+
+2) Tokenize: Break comments into words or tokens.
+
+Tokenized comments:
+- ['disappointed', 'volume', 'control', 'TV', 'realize', 'volume', 'control', 'side', 'Roku', 'remote', '110', 'degrees', 'stay', 'remember', 'correctly', 'usually', 'hot', 'August', 'time', 'period', 'home', '3', 'full', 'house', 'HVAC', 'systems', 'normal', '2', 'story', 'house', 'well', 'maintained', 'One', 'systems', 'fairly', 'new', 'others', 'checked', 'every', 'year', 'However', 'realize', 'guests', 'want', 'cooler', 'added', 'extra', 'AC', 'units', 'sleeping', 'areas', 'one', 'game', 'rooms']
+- ['enjoyed', 'stay', 'start', 'finish', 'never', 'board', 'staying', 'home', 'Kids', 'enjoyed', 'game', 'room', 'pool', '10/10']
+- ['House', 'great', 'group', 'went', 'Lots', 'house', 'one', 'sitting', 'around', 'bored', 'Pool', 'great', 'get', 'Texas', 'heat']
+- ['Family', 'pleasure', 'staying', 'beautiful', 'comfortable', 'home', 'felt', 'like', 'right', 'home', 'much', 'game', 'room', 'pool', 'comfortable', 'clean', 'home', 'definitely', 'stay', 'Dallas', 'thank', 'much']
+- ['Paul’s', 'Place', 'excellent', 'everything', 'pictured', 'Paul', 'made', 'great', 'recommendations', 'responsive', 'questions', 'Everything', 'clean', 'would', 'stay']
+- ['great', 'time', 'perfect', 'place', 'large', 'group']
+- ['Wonderful', 'stay', 'Lots', 'responsive', 'questions', 'Would', 'def', 'stay', 'town']
+- ['Paul', 'amazing', 'host', 'flexible', 'responsive', 'careful', 'house', 'well', 'located', 'amazing', 'ice', 'cream', 'nearby', 'house', 'need', 'improvement', 'dated', 'feel', 'deceived', 'photos']
+- ['Thank', 'kind', 'words', 'glad', 'enjoyed', 'stay', 'enjoy', 'ice', 'cream', 'spot', 'corner', 'glad', 'found', 'hope', 'come', 'soon', 'always', 'striving', 'improve', 'home', 'thank', 'feedback']
+- ['home', 'perfect', 'large', 'family', 'vacation', 'really', 'like', 'home', 'ab&bs', 'things', 'many', 'touches', 'pool', 'great', 'shade', 'outdoor', 'seating', 'areas', 'plentiful', 'plenty', 'linens', 'blankets', 'games', 'galore', 'many', 'thoughtful', 'touches', '20', 'minutes', 'airport', 'museums', 'aquariums', 'great', 'restaurants', 'fun', 'stuff', 'Shopping', 'areas', 'close', 'anything', 'forgotten', 'Nice', 'neighborhood', 'neighbor', 'friendly', 'Host', 'Paul', 'quick', 'answer', 'questions', 'helpful', 'lots', 'kids', 'adults', 'entertain', 'spot', 'Dallas', 'area']
+- ['wonderful', 'home']
+
+3) Frequency Analysis: Count token occurrences to identify common topics
+
+Frequency analysis results:
+- 'home': 6
+- 'stay': 5
+- 'pool': 4
+- 'game': 3
+- 'room': 3
+- 'great': 3
+- 'house': 3
+- 'Paul': 3
+- 'stay': 3
+- 'kids': 3
+- 'comfortable': 2
+- 'clean': 2
+- 'responsive': 2
+- 'improve': 2
+- 'large': 2
+- 'group': 2
+- 'many': 2
+- 'touches': 2
+- 'area': 2
+- 'staying': 2
+
+4) Sentiment Analysis: Assess comment sentiment. Positive indicates importance; negative suggests improvement areas.
+
+Sentiment analysis results:
+- Positive sentiment: 9 comments
+- Negative sentiment: 1 comment
+
+5) Ranking: Based on frequency and sentiment, and importance.
+
+Ranked list of guest priorities when staying in a house:
+1) Comfortable and clean home
+2) Pool
+3) Game room
+4) Large group accommodation
+5) Responsive host
+6) Improvement areas (based on negative sentiment)
+7) Extra amenities and thoughtful touches
+8) Location and proximity to attractions
+9) Flexibility and helpfulness of the host
+10) Volume control on TV (specific to one comment)
+
+Note: The ranking is subjective and can vary based on individual preferences and interpretations of the comments.Based on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+- The most common topics mentioned in the comments are:
+  - Spaciousness
+  - Cleanliness
+  - Comfort
+  - Availability of activities/games
+  - Outdoor space
+  - Number of beds/rooms
+  - Proximity to the airport
+  - Quiet neighborhood
+  - Responsiveness of the host
+  - Safety features (e.g., child locks)
+  - Game room
+  - Pool and hot tub
+
+2) Sentiment Analysis:
+- Positive sentiment:
+  - Spaciousness
+  - Cleanliness
+  - Comfort
+  - Availability of activities/games
+  - Outdoor space
+  - Number of beds/rooms
+  - Responsiveness of the host
+  - Safety features (e.g., child locks)
+  - Game room
+  - Pool
+- Negative sentiment:
+  - Dated furniture
+  - Tree debris on the driveway
+
+3) Ranking:
+Based on the frequency and sentiment analysis, the guest priorities can be ranked as follows:
+
+1) Spaciousness
+2) Cleanliness
+3) Comfort
+4) Availability of activities/games
+5) Outdoor space
+6) Number of beds/rooms
+7) Responsiveness of the host
+8) Safety features (e.g., child locks)
+9) Game room
+10) Pool
+11) Proximity to the airport
+12) Quiet neighborhood
+13) Dated furniture
+14) Tree debris on the driveway
+
+Note: The ranking is subjective and can vary based on individual preferences.Based on the Airbnb comments, here is the ranked list of guest priorities when staying in a house:
+
+1) Cleanliness: Multiple guests mentioned that the house was clean, which indicates that cleanliness is an important factor for guests.
+
+2) Amenities: Guests appreciated the amenities provided, such as the game room, pool, hot tub, and outside spaces. This suggests that having a variety of amenities is highly valued by guests.
+
+3) Communication and Responsiveness: Guests mentioned that the host, Paul, was quick to reply to their questions and concerns. Good communication and responsiveness from the host are important factors for guests.
+
+4) Location: Some guests mentioned that the location of the house was convenient for their stay. Proximity to attractions or airports can be a priority for guests.
+
+5) Value for Money: Guests mentioned that they felt they got more than expected and that the house was worth the price. Providing good value for money is important for guest satisfaction.
+
+6) Family-Friendly: Guests who stayed with kids appreciated the family-friendly aspects of the house, such as the availability of kitchen supplies, towels, and hangers. Catering to families and providing necessary amenities for children can be a priority for guests.
+
+7) Improvement Areas: Some guests mentioned minor issues or areas for improvement, such as the smell in the house, the deep pool, and the dated appearance. Addressing these improvement areas can enhance guest satisfaction.
+
+Overall, guests prioritize cleanliness, amenities, communication, location, value for money, family-friendliness, and addressing improvement areas when staying in a house.Preprocessed Comments:
+
+1) I had four friends flying into Dallas to visit for the weekend, could not have picked a better spot for our reunion. Thanks Paul!
+2) Photos and description are pretty accurate for this home. We had a blast in the game room provided. The swimming pool and hot tub were nice. Unfriendly neighbor to the left of the home as your facing it has a shared driveway for this house. This is beyond control of the owner. Overall, I would issue a 4 out of 5 star rating. We were hesitant to use what the outside of this home has to offer after 10 PM due to possible fine of $500 for a noise complaint from the neighbors in close proximity.
+3) We stayed over the Christmas holiday and our hosts set up a Christmas tree with ornaments and lights. It made us feel the spirit from the moment we walked in. They left wine and snacks for us, which was another nice touch. A list of great restaurants and activities on the fridge. We really appreciated the extra effort.
+4) This house is loaded with everything for a family with children or private getaway with your significant other.
+5) Clean fun house for a large group.
+6) Came with family (3 kids) for Thanksgiving to have a lazy weekend and visit family. This house had so much to do for the kids. My 10-year-old would continually say "I love this house!". Arcade games, heated pool (cost, but worth it), ping pong, hot tub, etc. Came into the house with a few treats & wine for our arrival which was nice after a long travel day. Messaged Paul to say we could use some AA/AAA batteries one evening and he took the time to drop off some batteries the very next morning. Overall extremely comfortable weekend and a nice first Airbnb experience.
+7) Great Stay highly recommend!!
+8) Good home to stay with family and friends - lot of options inside the home to have fun. Games and pool..
+9) We had a great time staying here. From the pool to all of living spaces, we were able to accommodate all of our party of 12. The pool and grilling area were especially helpful and added to our enjoyment. Would stay again when back in Dallas.
+
+Tokenized Comments:
+
+1) ['friends', 'flying', 'dallas', 'visit', 'weekend', 'picked', 'better', 'spot', 'reunion', 'thanks', 'paul']
+2) ['photos', 'description', 'pretty', 'accurate', 'home', 'blast', 'game', 'room', 'provided', 'swimming', 'pool', 'hot', 'tub', 'nice', 'unfriendly', 'neighbor', 'left', 'home', 'facing', 'shared', 'driveway', 'house', 'beyond', 'control', 'owner', 'overall', 'issue', '4', '5', 'star', 'rating', 'hesitant', 'use', 'outside', 'home', 'offer', '10', 'pm', 'due', 'possible', 'fine', '500', 'noise', 'complaint', 'neighbors', 'close', 'proximity']
+3) ['stayed', 'christmas', 'holiday', 'hosts', 'set', 'christmas', 'tree', 'ornaments', 'lights', 'made', 'feel', 'spirit', 'moment', 'walked', 'left', 'wine', 'snacks', 'another', 'nice', 'touch', 'list', 'great', 'restaurants', 'activities', 'fridge', 'really', 'appreciated', 'extra', 'effort']
+4) ['house', 'loaded', 'everything', 'family', 'children', 'private', 'getaway', 'significant', 'other']
+5) ['clean', 'fun', 'house', 'large', 'group']
+6) ['came', 'family', '3', 'kids', 'thanksgiving', 'lazy', 'weekend', 'visit', 'family', 'house', 'much', 'kids', '10', 'year', 'old', 'continually', 'say', 'love', 'house', 'arcade', 'games', 'heated', 'pool', 'cost', 'worth', 'ping', 'pong', 'hot', 'tub', 'etc', 'came', 'house', 'treats', 'wine', 'arrival', 'nice', 'long', 'travel', 'day', 'messaged', 'paul', 'say', 'use', 'aa', 'aaa', 'batteries', 'evening', 'took', 'time', 'drop', 'batteries', 'morning', 'overall', 'extremely', 'comfortable', 'weekend', 'nice', 'first', 'airbnb', 'experience']
+7) ['great', 'stay', 'highly', 'recommend']
+8) ['good', 'home', 'stay', 'family', 'friends', 'lot', 'options', 'inside', 'home', 'fun', 'games', 'pool']
+9) ['great', 'time', 'staying', 'pool', 'living', 'spaces', 'able', 'accommodate', 'party', '12', 'pool', 'grilling', 'area', 'especially', 'helpful', 'added', 'enjoyment', 'would', 'stay', 'back', 'dallas']
+
+Frequency Analysis:
+
+- Top 5 common topics:
+1) House amenities (pool, games, hot tub, etc.)
+2) Positive comments about the host (Paul)
+3) Positive comments about the cleanliness and fun of the house
+4) Positive comments about the extra effort made by the hosts (Christmas decorations, snacks, etc.)
+5) Positive comments about the suitability of the house for families and large groups
+
+Sentiment Analysis:
+
+- Positive sentiment:
+1) House amenities (pool, games, hot tub, etc.)
+2) Positive comments about the host (Paul)
+3) Positive comments about the cleanliness and fun of the house
+4) Positive comments about the extra effort made by the hosts (Christmas decorations, snacks, etc.)
+5) Positive comments about the suitability of the house for families and large groups
+
+- Negative sentiment:
+1) Mention of an unfriendly neighbor and shared driveway issue
+
+Ranking:
+
+Based on frequency and sentiment, the ranked list of guest priorities when staying in a house would be:
+
+1) House amenities (pool, games, hot tub, etc.)
+2) Positive comments about the host (Paul)
+3) Positive comments about the cleanliness and fun of the house
+4) Positive comments about the extra effort made by the hosts (Christmas decorations, snacks, etc.)
+5) Positive comments about the suitability of the house for families and large groups
+6) Mention of an unfriendly neighbor and shared driveway issueRanked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Space: Many guests mentioned the ample space in the house, indicating that having enough room for a large group or family is important to them.
+
+2) Amenities: Guests appreciated the various amenities provided, such as a pool, grill area, game room, and jacuzzi. These amenities contribute to a positive experience and are considered important by guests.
+
+3) Communication: Guests mentioned the host's responsiveness and communication throughout their stay. This suggests that prompt and effective communication is valued by guests.
+
+4) Location: Some guests mentioned the convenience of the house's location, such as being close to grocery stores, the airport, and downtown. A convenient location is a priority for some guests.
+
+5) Comfort: Guests mentioned the comfort of the living room, beds, and seating areas. Comfortable accommodations are important to guests for a pleasant stay.
+
+6) Child-friendly: Several guests mentioned staying with kids and appreciated the house's suitability for children, including entertainment options and child-friendly amenities.
+
+7) Cleanliness: Although not explicitly mentioned in the provided comments, cleanliness is generally an important factor for guests when staying in a house.
+
+8) Neighbors: One guest mentioned that the neighbors did not bother them, indicating that a peaceful and non-disruptive neighborhood is valued by guests.
+
+9) Equipment and supplies: Guests appreciated the fully equipped kitchen, laundry facilities, and provided essentials such as detergent and soap pods. Having necessary equipment and supplies readily available is important to guests.
+
+10) Entertainment: Guests mentioned the availability of activities such as playing pool and streaming access on TVs in every room. Having entertainment options is a bonus for guests.
+
+It is important to note that these priorities are based on the provided comments and may not represent the preferences of all guests.Based on the provided Airbnb comments, the following is the ranked list of guest priorities when staying in a house:
+
+1) Easy access to amenities: Guests highly value easy access to amenities such as the kitchen, pool, hot tub, arcade, video games, ping pong, and pool table. They appreciate having these facilities readily available for their use.
+
+2) Communication and responsiveness of the host: Guests prioritize good communication and responsiveness from the host. They value hosts who are readily available to assist and address any concerns or questions they may have during their stay.
+
+3) Spaciousness and accommodation for large groups: Guests appreciate houses that offer plenty of space and can comfortably accommodate large groups or families. They value having numerous beds and bathrooms to ensure everyone's comfort.
+
+4) Fun activities and entertainment options: Guests highly value houses that provide plenty of activities and entertainment options to occupy their time. They enjoy having games, pool access, and other recreational facilities available.
+
+5) Cleanliness and well-maintained property: Guests prioritize cleanliness and a well-maintained property. They appreciate houses that are clean upon arrival and are kept in good condition.
+
+6) Location convenience: Guests value houses that are conveniently located near amenities such as grocery stores and restaurants. They appreciate being close to various attractions and activities in the area.
+
+7) Positive overall experience: Guests generally have a positive sentiment towards their stay and rate their experience with 5 stars. They express enjoyment, satisfaction, and a desire to return to the property.
+
+Based on the frequency and sentiment analysis, these are the key priorities for guests when staying in a house.Ranked List of Guest Priorities:
+
+1) Entertainment: The comments consistently highlight the entertainment options available in the house, such as pool, video games, board games, ping pong, arcade games, billiards, darts, and Jenga. Guests appreciate having a variety of activities to keep them entertained during their stay.
+
+2) Comfort: Guests mention the comfortable beds and sofas, indicating that comfort is important to them. They appreciate having a cozy and relaxing environment to unwind and rest.
+
+3) Convenience: The comments mention the convenience provided by the host, such as the host's efforts to create a comfortable and convenient experience, being responsive to address any surprise issues, and providing amenities like streaming services, books, and board games. Guests value convenience and appreciate hosts who go the extra mile to make their stay hassle-free.
+
+4) Communication and Responsiveness: Guests appreciate hosts who are responsive and address any issues that may arise during their stay. They value clear and prompt communication with the host.
+
+5) Group-Friendly: Several comments mention staying with kids or in a group, indicating that the house is suitable for accommodating larger groups. Guests appreciate having enough space and activities to accommodate everyone in their group.
+
+6) Cleanliness and Maintenance: While not explicitly mentioned in the provided comments, cleanliness and maintenance are important factors for guests when staying in a house. A clean and well-maintained property is expected and contributes to a positive guest experience.
+
+7) Amenities and Supplies: Guests expect basic amenities and supplies, such as toilet paper, bath towels, and functioning appliances. While not explicitly mentioned in the comments, any issues related to amenities and supplies can negatively impact the guest experience.
+
+8) Privacy and Security: While not explicitly mentioned in the provided comments, privacy and security are important factors for guests when staying in a house. Guests expect a safe and secure environment where they can enjoy their stay without any concerns.
+
+Note: The ranking is based on the analysis of the provided comments. Additional comments and data would provide a more comprehensive understanding of guest priorities.Based on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+   - Common topics mentioned by guests include:
+     - Activities and things to do (e.g., pool, hot tub, billiards, ping pong, foozball)
+     - Space and number of beds/rooms for large groups
+     - Cleanliness and safety
+     - Communication and responsiveness of the host
+     - Location and proximity to attractions
+     - Family-friendly amenities
+     - Well-stocked house
+
+2) Sentiment Analysis:
+   - Positive sentiment:
+     - Guests express satisfaction with the house, amenities, and activities available.
+     - They appreciate the cleanliness, safety, and comfort of the house.
+     - Guests mention the host's responsiveness, attentiveness, and welcoming nature.
+     - They enjoy the space, number of beds, and family-friendly activities.
+     - Guests recommend the house and express their intention to stay again.
+
+   - Negative sentiment:
+     - One guest mentions getting bitten by something multiple times, possibly outside in the hot tub. This suggests a potential improvement area regarding pest control.
+
+3) Ranking:
+   - Based on frequency and positive sentiment, the following guest priorities can be ranked:
+     1) Activities and things to do
+     2) Space and number of beds/rooms for large groups
+     3) Cleanliness and safety
+     4) Communication and responsiveness of the host
+     5) Location and proximity to attractions
+     6) Family-friendly amenities
+     7) Well-stocked house
+
+   - The negative sentiment regarding potential pest issues should be addressed to improve guest satisfaction.
+
+Overall, guests prioritize having a variety of activities and things to do, ample space for large groups, cleanliness and safety, responsive communication with the host, and a convenient location. Family-friendly amenities and a well-stocked house are also important factors.Ranked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Cleanliness: The most common topic mentioned in the comments is the cleanliness of the house. Guests appreciate a clean and well-maintained space, and any negative comments regarding cleanliness should be addressed to improve guest satisfaction.
+
+2) Amenities: Guests highly value the amenities provided in the house, such as a pool, hot tub, game room, and spaciousness. Positive comments about these amenities indicate their importance to guests.
+
+3) Host responsiveness: Guests appreciate hosts who are quick to respond to their questions and concerns. Positive comments about the host's responsiveness suggest that this is an important factor for guests when choosing a place to stay.
+
+4) Check-in/check-out flexibility: Flexibility in check-in and check-out times is mentioned as a positive aspect by guests. This flexibility can enhance the overall guest experience.
+
+5) Accuracy of listing: Guests appreciate when the house matches the description and photos provided in the listing. Positive comments about the accuracy of the listing indicate its importance to guests.
+
+6) Neighborhood: Positive comments about the neighborhood suggest that guests value a beautiful and safe neighborhood when choosing a place to stay.
+
+7) Space: Guests mention the importance of having enough space for their family or group. Positive comments about spaciousness indicate its importance to guests.
+
+8) Smell and cleanliness issues: Negative comments about foul smells and cleanliness issues should be addressed promptly to improve guest satisfaction. These issues can significantly impact the guest experience.
+
+9) Furniture and amenities condition: Negative comments about wobbly furniture and discolored wood indicate that guests value well-maintained and functional furniture and amenities.
+
+10) Value for money: Although not explicitly mentioned in the comments, the negative review suggests that guests expect good value for the money they spend on their stay. Providing a high-quality experience that justifies the price can enhance guest satisfaction.
+
+Note: The ranking is based on the frequency and sentiment of the comments. Positive comments indicate importance, while negative comments suggest areas for improvement.Based on the provided Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+   - The most common topics mentioned by guests are:
+     - Pool: The pool is frequently mentioned as a highlight and source of entertainment.
+     - Space: Guests appreciate spacious accommodations, especially for large groups.
+     - Games: Game rooms and arcade games are mentioned as enjoyable amenities.
+     - Convenience: Easy access to freeways, grocery stores, shopping, and dining is appreciated.
+     - Cleanliness: Cleanliness is mentioned positively, indicating its importance.
+     - Communication: Fast and helpful communication from the host is valued.
+
+2) Sentiment Analysis:
+   - Positive sentiment is expressed in the comments, indicating the importance of the following aspects:
+     - Pool: Guests describe the pool as wonderful, enjoyable, and a highlight.
+     - Space: The availability of space for large groups and privacy is appreciated.
+     - Games: Guests mention enjoying the games and entertainment options.
+     - Cleanliness: The cleanliness of the house is praised.
+     - Communication: Fast and helpful communication from the host is valued.
+
+   - No negative sentiment is expressed in the comments, suggesting that there are no significant improvement areas mentioned by the guests.
+
+3) Ranking:
+   Based on the frequency and positive sentiment, the ranked list of guest priorities when staying in a house can be as follows:
+   1) Pool: The pool is mentioned frequently and positively, indicating its high importance to guests.
+   2) Space: The availability of spacious accommodations for large groups and privacy is valued.
+   3) Games: Game rooms and arcade games are mentioned positively, indicating their importance for entertainment.
+   4) Convenience: Easy access to freeways, grocery stores, shopping, and dining is appreciated.
+   5) Cleanliness: The cleanliness of the house is praised, indicating its importance.
+   6) Communication: Fast and helpful communication from the host is valued.
+
+Overall, guests prioritize amenities such as a pool and game rooms, spacious accommodations, convenience, cleanliness, and effective communication with the host when staying in a house.Based on the provided Airbnb comments, here is the analysis of guest priorities when staying in a house:
+
+1) Preprocess:
+- Removed usernames, dates, and punctuation.
+- Converted the comments to lowercase.
+- Omitted stopwords.
+
+2) Tokenize:
+- Broke the comments into words or tokens.
+
+3) Frequency Analysis:
+- Counted token occurrences to identify common topics.
+
+4) Sentiment Analysis:
+- Assessed comment sentiment. Positive indicates importance; negative suggests improvement areas.
+
+5) Ranking:
+- Based on frequency and sentiment, ranked the priorities.
+
+Ranking of Guest Priorities:
+
+1) Pool: The pool was mentioned multiple times and was described as immaculate and clean. It was considered a highlight of the property.
+
+2) Entertainment options: Guests appreciated having plenty of entertainment options for all age groups. This included game rooms, pool tables, Foosball tables, and stand-alone games.
+
+3) Space and layout: The layout of the house was mentioned, with comments about the number of bedrooms, seating areas, and tables for meals. The flexibility of the space for large family gatherings was highlighted.
+
+4) Amenities and supplies: Guests mentioned the availability of certain amenities and supplies, such as a washer/dryer, pool towels, special pans for cooking, complimentary wine, and small appliances in the kitchen. Some guests suggested improvements in terms of providing more towels, dish cloths, and paper towels.
+
+5) Cleanliness and maintenance: The cleanliness and maintenance of the property, particularly the pool, were praised. Guests appreciated the regular maintenance of the pool and observed house rules.
+
+6) Comfort: Some guests mentioned the comfort of the beds, noting that they were not very comfortable due to squeaky springs. However, they were considered adequate.
+
+7) Location and neighborhood: The location and neighborhood were briefly mentioned, with comments about the area being nice but having noisy neighbors and mosquito problems.
+
+8) Communication with the owner: Guests appreciated the owner's responsiveness to concerns and questions during their stay.
+
+Based on the analysis, the top guest priorities when staying in a house are the pool, entertainment options, space and layout, amenities and supplies, cleanliness and maintenance, comfort, location and neighborhood, and communication with the owner.Based on the provided Airbnb comments, here is the analysis of guest priorities when staying in a house:
+
+1) Preprocess:
+- Removed usernames, dates, and punctuation.
+- Converted the comments to lowercase.
+- Omitted stopwords.
+
+2) Tokenize:
+- Broke the comments into words or tokens.
+
+3) Frequency Analysis:
+- Counted token occurrences to identify common topics.
+
+4) Sentiment Analysis:
+- Assessed comment sentiment. Positive indicates importance; negative suggests improvement areas.
+
+5) Ranking:
+- Based on frequency and sentiment, ranked the priorities.
+
+Here are the results:
+
+Rank 1: Entertainment and Activities
+- Frequency: The most common topic mentioned in the comments is the availability of various entertainment options and activities in the house.
+- Sentiment: The sentiment is positive, indicating that guests highly appreciate the entertainment options provided.
+
+Rank 2: Space and Accommodation
+- Frequency: The comments mention that the house can accommodate a large family or group comfortably.
+- Sentiment: The sentiment is positive, suggesting that guests find the space and accommodation suitable for their needs.
+
+Rank 3: Pool and Outdoor Amenities
+- Frequency: The pool and outdoor amenities are mentioned positively in the comments.
+- Sentiment: The sentiment is positive, indicating that guests enjoy the pool and appreciate the outdoor amenities.
+
+Rank 4: Communication and Host
+- Frequency: Some comments mention the host's communication and responsiveness.
+- Sentiment: The sentiment is positive, suggesting that guests appreciate the host's communication.
+
+Rank 5: Upgrades and Improvements
+- Frequency: One comment mentions the upgrades and improvements made to the house.
+- Sentiment: The sentiment is positive, indicating that guests value the efforts made to enhance the property.
+
+Rank 6: Accuracy of Listing
+- Frequency: One comment mentions the discrepancy between the listing's furniture and the actual furniture in the house.
+- Sentiment: The sentiment is negative, suggesting that guests were disappointed with the accuracy of the listing.
+
+Based on the analysis, the ranked list of guest priorities when staying in a house is as follows:
+
+1) Entertainment and Activities
+2) Space and Accommodation
+3) Pool and Outdoor Amenities
+4) Communication and Host
+5) Upgrades and Improvements
+6) Accuracy of ListingBased on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+   - The most common topics mentioned by guests are:
+     - Cleanliness: Multiple guests mentioned that the house was very clean.
+     - Pool and amenities: Guests appreciated the pool area, pool heater, and various entertainment options like arcade games.
+     - Space for large groups: Several guests mentioned that the house had plenty of space for large groups.
+     - Host communication: Guests praised the host, Paul, for being responsive and helpful.
+
+2) Sentiment Analysis:
+   - Positive sentiment:
+     - Guests expressed satisfaction with the cleanliness of the house.
+     - They appreciated the pool, amenities, and entertainment options.
+     - Guests were happy with the host's communication and responsiveness.
+   - Negative sentiment:
+     - One guest mentioned that the house smelled musty and the pool heater didn't work.
+
+3) Ranking:
+   Based on the frequency and sentiment analysis, the guest priorities can be ranked as follows:
+   1) Cleanliness: Guests consistently mentioned that the house was very clean, indicating its importance.
+   2) Pool and amenities: The pool area and various entertainment options were highly appreciated by guests.
+   3) Space for large groups: The availability of ample space for large groups was mentioned positively.
+   4) Host communication: Guests praised the host, Paul, for being responsive and helpful.
+   5) Improvement areas: The negative comment about the musty smell and pool heater suggests areas for improvement.
+
+Overall, guests prioritize cleanliness, pool and amenities, space for large groups, and good host communication when staying in a house.Preprocessed Comments:
+
+1) Great place to have a mini family reunion. Lots of rooms and very comfortable beds. Something for everyone to do. This place met or exceeded our expectations. We would definitely stay at this house again.
+
+2) The hot tub and pool are fabulous- better than described! The host is incredibly responsive and accommodating - for those who like tv? This place has one or more in every room! We were only 6 adults and we had plenty of space. This is a space made to handle lots of people!
+
+3) Paul’s place was great! I saw it listed on another property rental site that starts with the same letter as “vacation”, and it had additional pictures. I booked here based on the 5 bedroom description and the photos I saw of the 5 rooms on that site. When we got there, we were a bit confused and looking around for another huge room that had a wooden armoire and brown wooden queen headboard, in addition to the king master, queen guest downstairs, and 2 upstairs rooms with a double and twins in each. We couldn’t find the queen bed with wooden headboard that we saw in the photos. After a bit, we figured out that the queen bed pic is the same room as the king bed pic. We think they remodeled that room with a new king bed and furniture, but maybe forgot to delete one of the older pics of when it had the dark brown wooden furniture in it. We were still confused, though, because it was listed as 5 bedrooms. We did find a teeny tiny room upstairs that is a bit bigger than a closet, with a pull out twin made up in it. So, yes... the 5 bedroom status is correct. However, it’s just different rooms than we thought based on the pictures from the other rental site. It was okay for us and our party of 8, though. It still worked, so it wasn’t even worth getting disappointed over. The only other thing I would note is that there are no longer bunk beds in one of the upstairs rooms, where the picture of that room clearly shows bunk beds. It’s a twin day bed with trundle (in addition to a double bed). Still the same amount of beds, but my kids were a tad disappointed as we thought there were bunks. Still nothing to get upset over, though, and it was a great lesson for our kids in being flexible and grateful for what we had! And it still was a great stay! We had a great time, things were clean; we got to meet Paul when he came to clean the pool a bit and he was extremely warm, friendly, and full of great tips on dining and events in grapevine! My kids loved the pool and the arcade games, and my husband, parents, and I enjoyed hanging out and playing board games together. We had a wonderful Christmas getaway in these days of Covid. I think a photo update would be helpful for the listing, but that would be our only thing of note. Thank you so much!
+
+Frequency Analysis:
+
+- Rooms: 4
+- Beds: 4
+- Space: 2
+- Comfort: 1
+- Expectations: 1
+- Reunion: 1
+- Hot tub: 1
+- Pool: 2
+- Responsive: 1
+- Accommodating: 1
+- TV: 1
+- Adults: 1
+- People: 2
+- Confused: 2
+- Bedroom: 3
+- Pictures: 3
+- Queen bed: 2
+- Wooden furniture: 2
+- Remodeled: 1
+- Teeny tiny room: 1
+- Bunk beds: 1
+- Twin day bed: 1
+- Trundle: 1
+- Kids: 2
+- Disappointed: 1
+- Flexible: 1
+- Grateful: 1
+- Clean: 1
+- Pool: 1
+- Warm: 1
+- Friendly: 1
+- Tips: 1
+- Dining: 1
+- Events: 1
+- Arcade games: 1
+- Board games: 1
+- Christmas getaway: 1
+- Covid: 1
+- Photo update: 1
+- Listing: 1
+
+Sentiment Analysis:
+
+Positive Sentiments:
+- Great place to have a mini family reunion.
+- Lots of rooms and very comfortable beds.
+- Something for everyone to do.
+- This place met or exceeded our expectations.
+- The hot tub and pool are fabulous- better than described!
+- The host is incredibly responsive and accommodating.
+- We had a great time, things were clean.
+- We got to meet Paul when he came to clean the pool a bit and he was extremely warm, friendly, and full of great tips on dining and events in grapevine!
+- My kids loved the pool and the arcade games, and my husband, parents, and I enjoyed hanging out and playing board games together.
+- We had a wonderful Christmas getaway in these days of Covid.
+- Thank you so much!
+
+Negative Sentiments:
+- We were a bit confused and looking around for another huge room that had a wooden armoire and brown wooden queen headboard.
+- We couldn’t find the queen bed with wooden headboard that we saw in the photos.
+- We were still confused, though, because it was listed as 5 bedrooms.
+- There are no longer bunk beds in one of the upstairs rooms, where the picture of that room clearly shows bunk beds.
+- My kids were a tad disappointed as we thought there were bunks.
+- I think a photo update would be helpful for the listing, but that would be our only thing of note.
+
+Ranking:
+
+Based on the frequency and sentiment analysis, the ranked list of guest priorities when staying in a house would be as follows:
+
+1) Rooms
+2) Beds
+3) Space
+4) Comfort
+5) Expectations
+6) Reunion
+7) Hot tub
+8) Pool
+9) Responsive
+10) Accommodating
+11) TV
+12) Adults
+13) People
+14) Confused
+15) Bedroom
+16) Pictures
+17) Queen bed
+18) Wooden furniture
+19) Remodeled
+20) Teeny tiny room
+21) Bunk beds
+22) Twin day bed
+23) Trundle
+24) Kids
+25) Disappointed
+26) Flexible
+27) Grateful
+28) Clean
+29) Warm
+30) Friendly
+31) Tips
+32) Dining
+33) Events
+34) Arcade games
+35) Board games
+36) Christmas getaway
+37) Covid
+38) Photo update
+39) ListingBased on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+   - Common topics mentioned by guests include:
+     - Spaciousness and room to spread out
+     - Communication and responsiveness of the owner/host
+     - Cleanliness and overall condition of the house
+     - Amenities and extra touches provided
+     - Pool and outdoor area
+     - Suitable for group trips and families
+     - Comfortable beds
+     - Entertainment options (games, arcade)
+     - Convenient location
+     - Value for the price
+
+2) Sentiment Analysis:
+   - Positive sentiment:
+     - Guests express satisfaction with the house, amenities, and overall experience.
+     - They appreciate the communication and responsiveness of the owner/host.
+     - They mention the extra touches, hospitality, and recommendations provided.
+     - They highlight the spaciousness, comfort of the beds, and entertainment options.
+     - They mention the convenience of the location and value for the price.
+
+   - Neutral sentiment:
+     - Some comments simply state that the house was nice or recommend staying again without providing specific details.
+
+   - Negative sentiment:
+     - No negative sentiment is expressed in the comments analyzed.
+
+3) Ranking:
+   Based on the frequency and sentiment analysis, the following ranked list of guest priorities when staying in a house can be generated:
+
+   1) Spaciousness and room to spread out
+   2) Communication and responsiveness of the owner/host
+   3) Cleanliness and overall condition of the house
+   4) Amenities and extra touches provided
+   5) Pool and outdoor area
+   6) Suitable for group trips and families
+   7) Comfortable beds
+   8) Entertainment options (games, arcade)
+   9) Convenient location
+   10) Value for the price
+
+Note: This ranking is based on the analysis of the provided comments and may vary depending on the specific context and dataset used for analysis.Preprocessing:
+- Remove usernames, dates, and punctuation.
+- Convert to lowercase.
+- Omit stopwords.
+
+Tokenization:
+- Break comments into words or tokens.
+
+Frequency Analysis:
+- Count token occurrences to identify common topics.
+
+Sentiment Analysis:
+- Assess comment sentiment. Positive indicates importance; negative suggests improvement areas.
+
+Ranking:
+- Based on frequency and sentiment, rank the topics in order of importance.
+
+Here are the results:
+
+1) Pool: The pool is mentioned multiple times and is described as a major highlight of the house. Guests appreciate having a pool and find it entertaining and enjoyable.
+
+2) Entertainment: Guests mention various forms of entertainment available in the house, such as TV, pool table, ping pong table, arcade games, and more. This is seen as a positive aspect of the house.
+
+3) Comfortable beds: The comfort of the beds is mentioned in a positive light, indicating its importance to guests.
+
+4) Activities for all ages: Guests appreciate having activities suitable for all ages, including games like corn hole, darts, and ping pong. This is seen as a positive aspect of the house.
+
+5) Communication and responsiveness of the host: Guests mention positive experiences with the host, indicating the importance of good communication and responsiveness.
+
+6) Spaciousness: The spaciousness of the house is mentioned positively, indicating its importance to guests.
+
+7) Well-equipped with games and activities: Guests appreciate the availability of various games and activities in the house, indicating its importance.
+
+8) Kitchen: The kitchen is mentioned positively, indicating its importance for guests who want to cook for a group.
+
+9) Overall cleanliness: Guests mention the cleanliness of the house in a positive light, indicating its importance.
+
+10) Other positive aspects: Other positive aspects mentioned include the house being well-equipped, peaceful, fun, and having a great set of weights.
+
+Based on the frequency and sentiment analysis, the ranked list of guest priorities when staying in a house is as follows:
+
+1) Pool
+2) Entertainment
+3) Comfortable beds
+4) Activities for all ages
+5) Communication and responsiveness of the host
+6) Spaciousness
+7) Well-equipped with games and activities
+8) Kitchen
+9) Overall cleanliness
+10) Other positive aspectsBased on the provided Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+- Common topics mentioned by multiple guests include:
+  - Amenities for kids (pool, shuffleboard, board games, video game systems)
+  - Spacious rooms and comfortable sleeping arrangements
+  - Multiple TVs in the house
+  - Pool, hot tub, and other recreational activities (darts, arcade games, pool table)
+  - Proximity to the airport and downtown area
+  - Good local tips and recommendations from the host
+  - Cleanliness of the house
+  - Availability of various entertainment options (Mortal Kombat arcade cabinet, darts, ping pong)
+  - Close proximity to attractions and amenities
+  - Accommodating and responsive host
+  - Well-equipped kitchen and grills
+  - Quiet neighborhood
+
+2) Sentiment Analysis:
+- Positive sentiment is expressed towards:
+  - The amenities for kids
+  - Spacious rooms and comfortable sleeping arrangements
+  - Multiple TVs in the house
+  - Pool, hot tub, and other recreational activities
+  - Good local tips and recommendations from the host
+  - Cleanliness of the house
+  - Availability of various entertainment options
+  - Accommodating and responsive host
+  - Well-equipped kitchen and grills
+  - Quiet neighborhood
+- No negative sentiment is expressed in the provided comments.
+
+3) Ranking:
+Based on the frequency and sentiment analysis, the guest priorities can be ranked as follows:
+
+1) Amenities for kids (pool, shuffleboard, board games, video game systems)
+2) Spacious rooms and comfortable sleeping arrangements
+3) Multiple TVs in the house
+4) Pool, hot tub, and other recreational activities (darts, arcade games, pool table)
+5) Proximity to the airport and downtown area
+6) Good local tips and recommendations from the host
+7) Cleanliness of the house
+8) Availability of various entertainment options (Mortal Kombat arcade cabinet, darts, ping pong)
+9) Close proximity to attractions and amenities
+10) Accommodating and responsive host
+11) Well-equipped kitchen and grills
+12) Quiet neighborhood
+
+Note: The ranking is subjective and based on the provided comments. Additional comments and data may lead to different rankings.Ranked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Cleanliness: The comments mention that the place is clean, very clean, and wonderful. This indicates that guests prioritize a clean and well-maintained property.
+
+2) Amenities: Guests appreciate having a lot of room to sleep, a lot of amenities, and many things in the home to keep them busy. This suggests that having a variety of amenities and entertainment options is important to guests.
+
+3) Host: The comments mention that the host is great, accommodating, and quick to respond. This indicates that guests value a friendly and responsive host.
+
+4) Pool: The comments highlight the pool as a highlight of the property, with guests spending a lot of time enjoying it. This suggests that having a pool or outdoor space for relaxation and recreation is important to guests.
+
+5) Location: The comments caution large groups about the distance from Dallas and suggest that staying in Dallas might be more convenient. This indicates that location and proximity to attractions or activities are important factors for guests.
+
+6) Size and suitability for large groups: Guests mention that the place is perfect for large groups and has excellent space for them. This suggests that having enough space to accommodate large groups is important to guests.
+
+7) Value for money: The comments mention that the property is affordable and worth every penny. This indicates that guests value a property that offers good value for the price.
+
+8) Positive overall experience: The comments express positive experiences, with guests mentioning that it was their first experience with Airbnb and it was a good one. This suggests that guests prioritize having a positive overall experience during their stay.
+
+9) Improvement areas: One comment mentions that the property could use a pick me up and had rodents and insects. Although this is a negative aspect, it provides an opportunity for improvement and shows that guests value a well-maintained and pest-free property.
+
+Based on the frequency and sentiment of these topics, the ranked list of guest priorities when staying in a house would be as follows:
+
+1) Cleanliness
+2) Amenities
+3) Host
+4) Pool
+5) Location
+6) Size and suitability for large groups
+7) Value for money
+8) Positive overall experience
+9) Improvement areasBased on the Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Frequency Analysis:
+- The most common topics mentioned by guests are the host's responsiveness and communication, the cleanliness of the space, the availability of amenities, the size and capacity of the house, and the convenience of the location.
+
+2) Sentiment Analysis:
+- Positive sentiment is expressed towards the host's responsiveness, communication, and flexibility, as well as the cleanliness of the space, the availability of amenities, and the convenience of the location.
+- Negative sentiment is expressed towards the cleanliness of the kitchen, the quality of the pans, and the comfort of the beds.
+
+3) Ranking:
+Based on the frequency and sentiment analysis, the guest priorities can be ranked as follows:
+
+1) Host responsiveness and communication
+2) Cleanliness of the space
+3) Availability of amenities
+4) Size and capacity of the house
+5) Convenience of the location
+6) Cleanliness of the kitchen
+7) Quality of pans
+8) Comfort of the beds
+
+It is important to note that these rankings are based on the specific comments analyzed and may vary for different guests. However, these rankings provide a general understanding of guest priorities when staying in a house.Based on the provided Airbnb comments, the following is a ranked list of guest priorities when staying in a house:
+
+1) Comfortable beds: Multiple guests mentioned the comfort of the beds, with some even asking the host where they were purchased from. This indicates that guests prioritize a good night's sleep and comfortable accommodations.
+
+2) Communication and responsiveness of the host: Several guests praised the host for their quick and helpful communication. This suggests that guests value prompt responses and assistance from the host.
+
+3) Amenities and entertainment options: Guests appreciated the availability of amenities such as a pool, hot tub, ping pong table, shuffleboard, and Texas Holdem table. This indicates that guests prioritize having various entertainment options and recreational activities during their stay.
+
+4) Location and proximity to airports, restaurants, and grocery stores: The convenience of the location was mentioned by a guest, suggesting that guests value easy access to essential amenities and attractions.
+
+5) Size and layout of the house: Guests mentioned the spaciousness of the house and the ability for people to spread out. This suggests that guests prioritize having enough space for their group and the ability to have privacy when needed.
+
+6) Cleanliness and well-maintained property: One guest specifically mentioned the cleanliness of the house and the availability of warm showers. This indicates that guests value a clean and well-maintained property.
+
+7) Recommendations and local tips from the host: One guest appreciated the host's suggestions for local places to visit. This suggests that guests value insider tips and recommendations from the host.
+
+Overall, guests prioritize comfortable accommodations, good communication with the host, availability of amenities and entertainment options, convenient location, spaciousness, cleanliness, and local recommendations.Based on the provided Airbnb comments, the following is the ranked list of guest priorities when staying in a house:
+
+1) Pool and outdoor amenities: The comments frequently mention the pool, patio, and outdoor cooking areas. Guests appreciate the additional touches like heated pool, hot tub, and pool safety measures for kids. The backyard and outdoor space are described as amazing and provide lots of space for entertainment.
+
+2) Indoor amenities and games: Guests appreciate the indoor amenities and gaming areas. The comments mention TVs in every room, easy-to-use facilities, and a variety of indoor games. The house is described as having everything needed for entertainment.
+
+3) Host hospitality and communication: The host, Paul, receives positive feedback for his hospitality and willingness to accommodate large groups. Guests appreciate his communication and quick responses to their questions. Paul's suggestions for local food and attractions are also mentioned.
+
+4) Location and proximity to airports: The location of the house near two airports is highlighted as a positive aspect. Guests find it convenient for flying into Dallas or Fort Worth.
+
+5) Comfort and convenience: Guests mention the comfortable and convenient stay at the house. The comments highlight the generous amount of towels, beds, blankets, and other toiletries provided. The neighborhood is also described as beautiful.
+
+6) Family-friendly and suitable for group trips: The house is praised for being family-friendly and suitable for group trips. Guests mention staying with kids and having a large family get-together. The house is described as having something for everyone, and each kid found something to love.
+
+7) Positive additional touches: Guests appreciate the additional touches provided by the host, such as wine, local beer, snacks, and other amenities. These touches are mentioned as enhancing the overall experience.
+
+Overall, guests prioritize outdoor amenities, indoor entertainment, host hospitality, location, comfort, and suitability for families and group trips when staying in a house.Based on the provided Airbnb comments, the following is a ranked list of guest priorities when staying in a house:
+
+1) Amenities: The comments frequently mention the abundance of amenities available in the house, such as games, swimming pool, jacuzzi, and a game room. Guests appreciate having various activities to enjoy during their stay.
+
+2) Space and Sleeping Arrangements: Guests value having enough space and separate sleeping arrangements, especially when traveling in large groups. The comments highlight the spaciousness of the house and the availability of multiple beds.
+
+3) Host Communication and Responsiveness: The comments consistently mention the host's excellent communication and prompt responsiveness. Guests appreciate hosts who are accommodating and readily available to address any concerns or questions.
+
+4) Location and Accessibility: The comments mention the quiet neighborhood and the house's accessibility to the highway. Guests value staying in a convenient location that allows for easy travel.
+
+5) Value for Money: Several comments mention the affordability of the house compared to staying in separate hotel rooms. Guests appreciate finding a cost-effective option that still provides a comfortable and enjoyable stay.
+
+6) Positive Overall Experience: The majority of comments express a positive overall experience, with guests praising the house, host, and their stay in general. Positive sentiment indicates the importance guests place on having a pleasant and enjoyable stay.
+
+7) Improvement Areas: While the comments are overwhelmingly positive, there are no specific negative aspects mentioned. However, this does not necessarily mean that there are no areas for improvement. It is important for hosts to continuously strive to enhance the guest experience.
+
+Overall, guests prioritize amenities, space, host communication, location, value for money, and having a positive overall experience when staying in a house.Based on the given Airbnb comments, here is the ranked list of guest priorities when staying in a house:
+
+1) Swimming pool: The swimming pool is mentioned multiple times and is highly praised by the guests. It is a common topic and is positively regarded as a great feature of the house.
+
+2) Game room: The game room is mentioned in multiple comments and is appreciated by the guests. It adds to the entertainment options and is considered a valuable amenity.
+
+3) Space and room: The spaciousness of the house is mentioned in one comment, where the guests appreciate having enough room for everyone to visit and entertain themselves. This indicates that having ample space is important to guests.
+
+4) Host friendliness and responsiveness: The host, Paul, is mentioned positively in multiple comments. Guests appreciate his kindness, obliging nature, and responsiveness. This suggests that having a friendly and helpful host is important to guests.
+
+5) Value for money: The value for money is mentioned in one comment, where the guests state that the accommodations, number of bedrooms, amenities, and value cannot be beaten. This indicates that guests prioritize getting good value for their money.
+
+6) Amenities: The amenities of the house, such as the pool, ping pong table, and man cave, are mentioned positively in the comments. Guests appreciate having access to these amenities and consider them valuable.
+
+7) Cleanliness and housekeeping: The cleanliness of the house is indirectly mentioned in the comments, where the host mentions the efforts of the housekeeping team to ensure everything is perfect for the guests. This suggests that guests value cleanliness and a well-maintained house.
+
+8) Location: The proximity to the Irving Las Colinas area is mentioned in one comment, where the guests state that it is a great place to stay if you want to be near that area. This indicates that location can be a priority for some guests.
+
+9) Bug control: The presence of bugs in the area is mentioned in one comment, but it is not seen as a major issue. The guests understand that it is something beyond the host's control and it doesn't significantly impact their overall experience.
+
+Overall, the ranked list of guest priorities when staying in a house, based on the analyzed Airbnb comments, is as follows:
+
+1) Swimming pool
+2) Game room
+3) Space and room
+4) Host friendliness and responsiveness
+5) Value for money
+6) Amenities
+7) Cleanliness and housekeeping
+8) Location
+9) Bug controlRanked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Swimming pool and outdoor amenities: The comments frequently mention the outdoor pool, hot tub, and lounging area as highlights of the house. Guests appreciate having these amenities for relaxation and entertainment.
+
+2) Game room and activities: The presence of a game room with darts, ping pong, and other games is mentioned positively by guests. They enjoy having options for indoor entertainment during their stay.
+
+3) Location and proximity to attractions: Guests appreciate the central location of the house, which provides easy access to food and entertainment options. The convenience of nearby attractions is important to them.
+
+4) Host responsiveness and accommodation: Guests value a host who is responsive and accommodating. They mention positive experiences with the host, such as being greeted upon arrival and having their needs met during their stay.
+
+5) Cleanliness and maintenance: Guests appreciate a clean and well-maintained house. They mention the efforts of the housekeeping team and credit them for ensuring a pleasant stay.
+
+6) Extra amenities and supplies: Guests appreciate the provision of extra amenities and supplies, such as citronella candles, tiki bamboo Luau torches, water bottles, toothbrushes, and games. These additional items enhance their stay and provide convenience.
+
+7) Space and capacity: Guests mention the ability of the house to accommodate large parties and groups. Having enough space for everyone is important to them.
+
+8) Unique touches: Guests mention unique touches, such as the presence of a pool and hot tub for a gymnastics team's trip to Texas. These unique features add value to their stay.
+
+9) Overall satisfaction and likelihood of returning: Guests express overall satisfaction with their stay and mention their intention to book again in the future. This indicates a positive experience and a desire to return to the same house.
+
+Note: The sentiment analysis was not performed in the given text, so the ranking is based solely on frequency of topics mentioned in the comments.Based on the Airbnb comments, the following are the guest priorities when staying in a house:
+
+1) Host Hospitality: Guests highly value a helpful and attentive host who goes above and beyond to ensure a pleasant stay. Positive sentiment indicates the importance of this factor.
+
+2) Amenities: Guests appreciate houses with a variety of fun amenities, such as a pool, fire pit, ping pong, pool table, and hot tub. The availability of these amenities contributes to a positive sentiment and suggests their importance.
+
+3) Space: Guests prioritize having enough space to accommodate a large group comfortably. The comments mention plenty of bedrooms and baths, as well as extra roll away beds. This factor is important for group trips and families with children.
+
+4) Location: Although not explicitly mentioned in the provided comments, the positive sentiment and high ratings suggest that the location of the house is satisfactory to the guests.
+
+Based on the frequency and sentiment analysis, the ranked list of guest priorities when staying in a house is as follows:
+
+1) Host Hospitality
+2) Amenities
+3) Space
+4) LocationBased on the provided Airbnb comments, here is the ranked list of guest priorities when staying in a house:
+
+1) Entertainment and Games: The comments frequently mention the various games and entertainment options available in the house, such as ping pong, shuffleboard, pool table, foosball, and hot tub. Guests highly appreciate these amenities and consider them important for a fun and enjoyable stay.
+
+2) Dining Space: The comments highlight the presence of a kitchen table for kids and a large dining table for adults. This indicates that guests prioritize having enough space for dining and gathering together.
+
+3) Host Hospitality: Guests appreciate the host's hospitality, including providing extra firewood and drinks, leaving breakfast and drinks in the fridge, and offering recommendations and assistance. This suggests that guests value a welcoming and attentive host.
+
+4) Location and Nearby Amenities: The comments mention the proximity of restaurants, shops, and basic necessities. Guests appreciate having these amenities nearby, indicating that location plays a role in their priorities.
+
+5) Communication and Responsiveness: Guests mention the host's prompt communication and willingness to address suggestions and concerns quickly. This suggests that guests value effective communication and responsiveness from the host.
+
+6) Extra Touches and Amenities: The comments mention extra touches like a stocked fridge, snacks, candy, wine, beer, Netflix, and coffee. These additional amenities are appreciated by guests and contribute to their positive experience.
+
+7) Outdoor Living Area and Pool: Although not mentioned as frequently as other priorities, the comments highlight the outdoor living area and pool as desirable features of the property. Guests express interest in enjoying these amenities when the weather is warmer.
+
+Overall, guests prioritize entertainment and games, dining space, host hospitality, location and nearby amenities, communication and responsiveness, extra touches and amenities, and outdoor living area and pool.Based on the provided Airbnb comments, the guest priorities when staying in a house can be analyzed as follows:
+
+1) Preprocess: Clean comments - remove usernames, dates, punctuation. Convert to lowercase and omit stopwords (e.g., "the," "and").
+
+The comments have already been cleaned and do not contain any usernames, dates, or punctuation. However, we can convert the comments to lowercase and remove stopwords.
+
+2) Tokenize: Break comments into words or tokens.
+
+The comments can be tokenized into individual words or tokens.
+
+Tokenized words from the comments:
+- kitchen, well, designed, inspired, mother-in-law, pies, scratch, highly, recommend, Paul's, place, Dallas, area, definitely, rebook, next, time
+- thank, feedback, Tanika, appreciate, taking, time, write, review, great, meet, pleased, baking, credit, housekeeping, team, work, hard, make, sure, everything, perfect, guests, staying, hope, stay, soon
+- thank, Chad, taking, time, provide, feedback, housekeeping, cleaning, team, work, hard, make, sure, everything, perfect, spotless, sounds, like, great, BBQ, swimming, pool, game, room, man, cave, hope, see, soon
+- thank, Sarah, taking, time, give, feedback, staying, house, sounds, like, blast, housekeeping, cleaning, team, work, hard, make, sure, everything, perfect, guest, hope, see, soon
+- thank, David, feedback, glad, loved, home, blast, activities, looks, enjoyed, pool, housekeeping, team, great, job, hope, see, soon
+- Robyn, place, worked, perfect
+
+3) Frequency Analysis: Count token occurrences to identify common topics
+
+Based on the frequency analysis of the tokenized words, the common topics that guests prioritize when staying in a house are:
+- Kitchen
+- Housekeeping and cleaning
+- Activities and amenities
+- Pool
+
+4) Sentiment Analysis: Assess comment sentiment. Positive indicates importance; negative suggests improvement areas.
+
+Based on the sentiment analysis of the comments, the sentiment is overwhelmingly positive. This suggests that guests prioritize positive aspects of their stay and do not have many improvement areas to mention.
+
+5) Ranking: Based on frequency and sentiment, and importance.
+
+Based on the frequency and sentiment analysis, the ranked list of guest priorities when staying in a house can be as follows:
+1) Kitchen (positive sentiment)
+2) Housekeeping and cleaning (positive sentiment)
+3) Activities and amenities (positive sentiment)
+4) Pool (positive sentiment)
+
+Note: The analysis is based on the provided comments and may not represent the complete range of guest priorities.Based on the provided Airbnb comments, the following is a ranked list of guest priorities when staying in a house:
+
+1) Location: Guests prioritize a convenient location, particularly in relation to the airport and nearby cities like Dallas and Fort Worth. This is mentioned multiple times in the comments.
+
+2) Amenities: Guests highly value amenities such as a patio, pool, hot tub, game room (including pool table, foosball table, and shuffleboard), and a well-stocked fridge. These amenities provide entertainment and convenience for guests of all ages.
+
+3) Sleeping accommodations: Guests appreciate having multiple options for sleeping arrangements, especially for larger groups. The availability of three full bathrooms is also mentioned as a positive aspect.
+
+4) Host hospitality: Guests appreciate a helpful and communicative host who is readily available to assist with any needs or provide recommendations for restaurants and activities in the area.
+
+5) Cleanliness: Guests mention the cleanliness of the house, pool, and hot tub as a positive aspect of their stay.
+
+Overall, the ranked list of guest priorities when staying in a house, based on frequency and sentiment, is as follows:
+
+1) Location
+2) Amenities
+3) Sleeping accommodations
+4) Host hospitality
+5) CleanlinessBased on the provided Airbnb comments, here is the ranked list of guest priorities when staying in a house:
+
+1) Pool: The pool is mentioned multiple times and is highly praised by guests. It is considered a significant factor in guest satisfaction and enjoyment.
+
+2) Space and Comfort: Guests appreciate ample space and comfortable accommodations. This includes comfortable beds, spacious rooms, and a well-maintained house.
+
+3) Entertainment: Guests value having options for entertainment during their stay. This includes games, a game room, and other activities to keep them entertained.
+
+4) Location: The proximity to popular destinations and the airport is mentioned as a positive aspect of the house. Guests appreciate a convenient location.
+
+5) Kitchen: The well-stocked kitchen is mentioned as a positive feature. Guests appreciate having a kitchen with necessary supplies.
+
+6) Neighborhood: A quiet and great neighborhood is mentioned as a positive aspect of the house.
+
+7) Host: Guests appreciate a responsive and accommodating host. Quick responses and good communication are valued.
+
+8) Parking: The availability of a long driveway that can accommodate multiple cars is mentioned as a positive feature.
+
+9) Amenities: The presence of amenities such as food supplies and other fun activities is mentioned as a positive aspect of the house.
+
+10) Cleanliness: Although not explicitly mentioned in the provided comments, the mention of a housekeeping and cleaning team suggests that cleanliness is important to guests.
+
+Overall, guests prioritize features that contribute to their comfort, entertainment, and convenience during their stay. The pool, space, and entertainment options are highly valued, while a responsive host and convenient location also play a significant role in guest satisfaction.Based on the Airbnb comments, the guest priorities when staying in a house can be determined as follows:
+
+1) Frequency Analysis:
+- The most common topics mentioned by the guests are:
+  - Paul as a host: Guests appreciate Paul's helpfulness, communication, and attentiveness.
+  - House amenities: Guests mention the games room, pool, hot tub, and abundance of games as highlights.
+  - Cleanliness: Multiple guests mention that the house was clean.
+  - Stocked fridge and snacks: Guests appreciate the fully stocked fridge and snacks provided by Paul.
+  - Location: Guests mention the nice quiet neighborhood and easy access to amenities.
+  - Spaciousness: Guests mention that the house feels big and has enough space for families to spread out.
+
+2) Sentiment Analysis:
+- The sentiment of the comments is overwhelmingly positive, indicating that the guests were satisfied with their stay.
+- Positive sentiment is expressed towards:
+  - Paul as a host: Guests describe Paul as excellent, awesome, amazing, and thoughtful.
+  - House amenities: Guests mention having an awesome time, enjoying the activities, and feeling at home.
+  - Cleanliness: Guests mention that the house was clean and comfortable.
+  - Stocked fridge and snacks: Guests appreciate the fully stocked fridge and snacks provided by Paul.
+  - Spaciousness: Guests mention that the house feels big and has enough space for families to spread out.
+
+3) Ranking:
+Based on the frequency and sentiment analysis, the guest priorities when staying in a house can be ranked as follows:
+
+1) Host quality: Guests prioritize having a helpful, communicative, and attentive host like Paul.
+2) House amenities: Guests value having a variety of activities and games, as well as a pool and hot tub.
+3) Cleanliness: Guests appreciate a clean and comfortable environment.
+4) Stocked fridge and snacks: Guests appreciate the convenience of having a fully stocked fridge and snacks.
+5) Location: Guests prefer a nice quiet neighborhood with easy access to amenities.
+6) Spaciousness: Guests value having enough space for families to spread out.
+
+Overall, guests prioritize a positive host experience, enjoyable amenities, cleanliness, convenience, and a comfortable and spacious environment when staying in a house.Based on the Airbnb comments, the following are the guest priorities when staying in a house:
+
+1) Cleanliness and amenities: Guests appreciate a well-stocked kitchen, snacks, drinks, toiletries, spare linens, and clean towels. They also value a tidy and well-equipped bathroom.
+
+2) Communication and responsiveness: Guests highly value hosts who are responsive and provide fast communication. They appreciate hosts who go above and beyond to make them comfortable and accommodate their needs.
+
+3) Space and accommodation: Guests prioritize having enough bedrooms and bathrooms to accommodate their group size. They also appreciate extra amenities like a game room, heated pool, and hot tub.
+
+4) Location and neighborhood: Guests prefer staying in a quiet neighborhood with little traffic. They also value being close to parks, restaurants, grocery stores, and other attractions. Centrality to different areas of interest is also important.
+
+5) Hospitality and personal touches: Guests appreciate hosts who are hospitable and provide personal touches like stocking the fridge with their favorite drinks or finding local craft beer for them. They value hosts who provide recommendations for restaurants and shops and instructions on how to use electronics.
+
+Based on sentiment analysis, all the comments have positive sentiment, indicating that guests were satisfied with their stay. The positive sentiment suggests that the mentioned priorities were met and exceeded their expectations.
+
+Ranking the guest priorities based on frequency and sentiment:
+
+1) Cleanliness and amenities
+2) Communication and responsiveness
+3) Space and accommodation
+4) Location and neighborhood
+5) Hospitality and personal touchesRanked list of guest priorities when staying in a house based on Airbnb comments:
+
+1) Cleanliness: Multiple comments mention that the house was extremely clean and well-kept. This is a top priority for guests.
+
+2) Hospitality and Service: Guests appreciate the host going above and beyond to provide a great experience. Comments mention the host's attention to detail, providing extra amenities, and being accommodating.
+
+3) Fully stocked house: Guests appreciate having a fully stocked kitchen with food and drinks. The availability of games and activities in the house is also mentioned as a positive aspect.
+
+4) Comfort and Space: Guests mention that the house was spacious and comfortable, with plenty of bedrooms and bathrooms. Comfortable beds and ample room for everyone are important factors.
+
+5) Proximity to airport: One comment mentions that the proximity to the airport was a major advantage. This suggests that location and convenience are also important to guests.
+
+Overall, guests prioritize cleanliness, hospitality, fully stocked amenities, comfort, and convenience when staying in a house.
