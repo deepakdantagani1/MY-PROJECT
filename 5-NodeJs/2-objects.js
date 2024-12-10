@@ -3,11 +3,11 @@
 //object.create() will create a new object of the existing once and also we can inherited properties can be overwritten
 //delete person.name ==> delete a value from an object
 //for in ==> loop through object
-//Object.entries() returns an array of entries
+//Object.entries() returns an array of entries, to access both key and value
+// object.fromEntries() ==> this is used to transform a list of key-value pairs into an object.
 //Object.keys() returns an array of keys
 //object.freeze() ==> this is freeze only outer most key values, but not the innermost and Object.isFrozen() is to validate
 //Object.getPrototypeOf() method returns the prototype of the specified object. if Object.create is used
-//****Object.fromEntries() method transforms a list of key-value pairs into an object.
 //The Object.values() method returns an array of a given object's own enumerable property values
 
 
@@ -95,7 +95,7 @@ for (let crewMember in spaceship1.crew) {
 }
 
 /**
- * provate veriable _
+ * private veriable _
  * add getters and setters
  */
 const backAccount = {
