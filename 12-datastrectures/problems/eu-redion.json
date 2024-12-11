@@ -1,0 +1,73 @@
+{
+"enabled": true,
+    "workbaskets": [
+        {
+            "name": "Refund",
+            "id": "refund-workbask-2t1j2cv8kll7thy1",
+            "supportedPermissionGroups": [
+                "nacstpermission"
+            ],
+            "taxEnabledClient": [
+                "BEECDF7AA98F2E76E0539B39030A8FF2",
+                "A8370349A50A69CBE0539B39030A148C",
+                "8F306CE8693E073EE0536138060AB049",
+                "3C7E80603575136BE053421F080AB134",
+                "48604F94A51244B6E053A239030ABFB9",
+                "48604F94A51444B6E053A239030ABFB9",
+                "7ECFD6967AB03758E0539B39030A31E0",
+                "5875204648AC3D03E0539B39030A7CD2",
+                "5875204648AD3D03E0539B39030A7CD2",
+                "D1F315956BB11F20E053570F4C64E2A3"
+            ],
+            "externalRefundFulfillment": [
+                "4ECA222A37B63627E0536138060AB356"
+            ],
+            "nonRMAEnabledClient": [
+                "4ECA222A37B63627E0536138060AB356"
+            ]
+        },
+        {
+            "name": "Payment Review",
+            "id": "payment-review-498nvmc8krayqt36",
+            "supportedPermissionGroups": [
+                "financepermission",
+                "nacstpermission"
+            ]
+        },
+        {
+            "name": "Escalation",
+            "id": "escalations-dldh128kxexuwnk",
+            "version": "1.0.4",
+            "supportedPermissionGroups": [
+                "nacstpermission"
+            ]
+        },
+        {
+            "name": "Finance",
+            "id": "refund-workbask-2t1j2cv8kll7thy1",
+            "supportedPermissionGroups": [
+                "financepermission"
+            ],
+            "taxEnabledClient": [
+                "BEECDF7AA98F2E76E0539B39030A8FF2",
+                "A8370349A50A69CBE0539B39030A148C",
+                "8F306CE8693E073EE0536138060AB049",
+                "3C7E80603575136BE053421F080AB134",
+                "48604F94A51244B6E053A239030ABFB9",
+                "48604F94A51444B6E053A239030ABFB9",
+                "7ECFD6967AB03758E0539B39030A31E0",
+                "5875204648AC3D03E0539B39030A7CD2",
+                "5875204648AD3D03E0539B39030A7CD2",
+                "D1F315956BB11F20E053570F4C64E2A3",
+                "85043B8BF2B134A3E0539B39030A721E",
+                "8A725682288C1B27E0538A1F080A66D6"
+            ],
+            "externalRefundFulfillment": [
+                "4ECA222A37B63627E0536138060AB356"
+            ],
+            "nonRMAEnabledClient": [
+                "4ECA222A37B63627E0536138060AB356"
+            ]
+        }
+    ]
+}
