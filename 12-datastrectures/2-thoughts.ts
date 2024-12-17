@@ -4,8 +4,8 @@
  * **** understanding the problem ******
  * read the question and visualize in the mind
  * collect all the hints
- * understand examples in detial and constraints
- * write down examples along with constraints
+ * understand examples in detail and constraints
+ * write down examples(ling, short, single) along with constraints
  *
  * **** brutal force *******
  * explain the process
@@ -33,16 +33,12 @@
  * ----- more practice -----
  * time and space complexities
  * writing conditions
- * java coding
  * data types
  */
 
 //there is answer in the question
 //take more example before write the logic
-//look for more edge cases
 //understand the constructor, once instaintiated, it should have all the info
-// dont use ! for null checks in java
-//to iterate a string, use substring to access each char
 //be careful in the loop of trying to access next values, could cause array index out of bound errors
 //in numbers, we can access last digit with modulo
 // remove the last number using division
