@@ -56,23 +56,13 @@ var spiralOrder = function (matrix) {
 
 /**
 notes 
-- The code example given solves a matrix spiral traversal problem, returning elements in spiral order using boundary adjustments and direction changes.
 
-- We discussed improvements to code quality, maintainability, and best practices, including:
   - Using direction vectors (`directions = [[0,1],[1,0],[0,-1],[-1,0]]`) to simplify direction changes.
-  - Handling edge cases, input validation, and documenting the solution.
-  - Ensuring the solution is optimal (O(M*N) time complexity and O(M*N) space complexity).
 
-- We considered real-world use cases where similar logic might apply, such as:
   - Data visualization and UI rendering in grid or matrix form.
   - Image processing and pattern-based pixel traversal.
   - Geospatial queries and expanding data retrieval in concentric patterns.
   - Sensor data analysis, adaptive caching, and specialized traversal patterns in large-scale distributed systems.
-
-- We discussed system design considerations:
-  - Building resilient, future-proof solutions with edge-case handling.
-  - Ensuring scalability, reliability, security, maintainability.
-  - Potential trade-offs, complexity management, and extensibility for large, FAANG-level environments.
 
 - The reason for using direction vectors and modular arithmetic (`dirIndex = (dirIndex + 1) % 4`) is to create a clean, cyclic pattern for direction changes, reducing code complexity and error-proneness.
 
