@@ -117,8 +117,13 @@
  * 5) first value
  * 6) find edge cases
  * 7) given example
+ * 8) possible negation examples before writing any statement, think of the condition if it is possible that it might not happen
  */
 
 /**
  * for better understanding, visualize if else condition as tow separate branches and then solve all conditions
+ */
+
+/**
+ * for any condition, always think of example if it is possible that it might not happen?
  */

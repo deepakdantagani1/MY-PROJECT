@@ -1,5 +1,5 @@
 /**
- * users, groups, policies, roles, security, access key, audit
+ * users, groups, policies, roles, security, access key, audit, permissions
  *
  * identity and access management ==> manage users and their level of access to the aws console.
  *

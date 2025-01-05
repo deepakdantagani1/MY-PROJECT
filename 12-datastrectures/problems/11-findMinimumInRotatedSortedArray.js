@@ -123,4 +123,53 @@ var search = function (nums, target) {
   return -1;
 };
 
-console.log(search([7, 1, 2, 3, 5, 6], 7));
+//console.log(search([7, 1, 2, 3, 5, 6], 7));
+
+/**
+ *
+ * @param {*} nums
+ * @param {*} target
+ *
+ * [2,5,6,0,0,1,2] 5
+ * [2,5,6,0,0,1,2] 3
+ * [2,5,6,7,7,9] 7
+ * [12,12,5,6,7,7,9,10] 0
+ * [12, 12] 2
+ * [13, 12] 12
+ */
+var search1 = function (nums, target) {
+  if (!Array.isArray(nums)) {
+    throw new TypeError("input must be an array");
+  }
+
+  let low = 0;
+  let high = nums.length - 1;
+
+  while (low <= high) {
+    const mid = low + Math.floor((high - low) / 2);
+
+    if (nums[mid] === target) return true;
+
+    //check of left is sorted
+    if(nums[low] === nums[mid] ){
+        low++;
+        continue;
+    }
+    if (nums[low] <= nums[mid]) {
+      if (nums[low] <= target && nums[mid] > target) {
+        high = mid - 1;
+      } else {
+        low = mid + 1;
+      }
+    } else {
+        if(nums[mid] < target && nums[high] >= target) {
+            low = mid + 1
+        } else {
+            high = mid -1
+        }
+    }
+  }
+  return false;
+};
+
+console.log(search1([1,0,1,1,1],0))
