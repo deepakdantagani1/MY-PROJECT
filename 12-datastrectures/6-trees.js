@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 /**
  * graph edge case scenarios
  * ==> circular graphs
@@ -19,45 +21,45 @@
  */
 
 const graph = {
-  A: { value: 10, left: "B", right: "C" },
-  B: { value: 20, left: null, right: null },
-  C: { value: 30, left: "D", right: "E" },
-  D: { value: 40, left: null, right: null },
-  E: { value: 50, left: null, right: null },
+    A: { value: 10, left: "B", right: "C" },
+    B: { value: 20, left: null, right: null },
+    C: { value: 30, left: "D", right: "E" },
+    D: { value: 40, left: null, right: null },
+    E: { value: 50, left: null, right: null },
 };
 
 const depthFirstSearchRecursion = (nodeKey, visited = new Set()) => {
-  if (!nodeKey || visited.has(nodeKey)) return;
-
-  const node = graph[nodeKey];
-
-  console.log(node.value);
-
-  if (node.left) depthFirstSearchRecursion(node.left, visited);
-  if (node.right) depthFirstSearchRecursion(node.right, visited);
-};
-
-const depthFirstSearchStack = (rootNodeKey) => {
-  if (!Object.keys(graph).length) return;
-
-  const visited = new Set();
-  const stack = [rootNodeKey];
-
-  while (stack.length > 0) {
-    const nodeKey = stack.pop();
-    if (visited.has(nodeKey)) {
-      continue;
-    }
+    if (!nodeKey || visited.has(nodeKey)) return;
 
     const node = graph[nodeKey];
 
     console.log(node.value);
 
-    visited.add(nodeKey);
+    if (node.left) depthFirstSearchRecursion(node.left, visited);
+    if (node.right) depthFirstSearchRecursion(node.right, visited);
+};
 
-    if (node.right) stack.push(node.right);
-    if (node.left) stack.push(node.left);
-  }
+const depthFirstSearchStack = (rootNodeKey) => {
+    if (!Object.keys(graph).length) return;
+
+    const visited = new Set();
+    const stack = [rootNodeKey];
+
+    while (stack.length > 0) {
+        const nodeKey = stack.pop();
+        if (visited.has(nodeKey)) {
+            continue;
+        }
+
+        const node = graph[nodeKey];
+
+        console.log(node.value);
+
+        visited.add(nodeKey);
+
+        if (node.right) stack.push(node.right);
+        if (node.left) stack.push(node.left);
+    }
 };
 
 //console.log(depthFirstSearchStack("A"));
@@ -67,49 +69,49 @@ const depthFirstSearchStack = (rootNodeKey) => {
  */
 
 const breathFirstSearchRecursion = (queue, visited = new Set()) => {
-  if (!Array.isArray(queue)) {
-    throw new TypeError("Queue must be list datatype");
-  }
-  if (!queue.length) {
-    return;
-  }
-
-  const nextQueue = [];
-
-  for (nodeKey of queue) {
-    if (visited.has(nodeKey)) {
-      continue;
+    if (!Array.isArray(queue)) {
+        throw new TypeError("Queue must be list datatype");
+    }
+    if (!queue.length) {
+        return;
     }
 
-    const node = graph[nodeKey];
-    console.log(node.value);
+    const nextQueue = [];
 
-    if (node.left) nextQueue.push(node.left);
-    if (node.right) nextQueue.push(node.right);
-  }
+    for (nodeKey of queue) {
+        if (visited.has(nodeKey)) {
+            continue;
+        }
 
-  if (nextQueue.length > 0) breathFirstSearchRecursion(nextQueue, visited);
+        const node = graph[nodeKey];
+        console.log(node.value);
+
+        if (node.left) nextQueue.push(node.left);
+        if (node.right) nextQueue.push(node.right);
+    }
+
+    if (nextQueue.length > 0) breathFirstSearchRecursion(nextQueue, visited);
 };
 
 const breathFirstSearchQueue = (rootNodeKey) => {
-  if (!graph || typeof graph !== "object" || !Object.keys(graph).length) return;
+    if (!graph || typeof graph !== "object" || !Object.keys(graph).length) return;
 
-  const visited = new Set();
-  const queue = [rootNodeKey];
+    const visited = new Set();
+    const queue = [rootNodeKey];
 
-  while (queue.length > 0) {
-    const nodeKey = queue.shift();
+    while (queue.length > 0) {
+        const nodeKey = queue.shift();
 
-    if (visited.has(nodeKey)) continue;
+        if (visited.has(nodeKey)) continue;
 
-    const node = graph[nodeKey];
+        const node = graph[nodeKey];
 
-    console.log(node.value);
-    visited.add(nodeKey);
+        console.log(node.value);
+        visited.add(nodeKey);
 
-    if (node.left) queue.push(node.left);
-    if (node.right) queue.push(node.right);
-  }
+        if (node.left) queue.push(node.left);
+        if (node.right) queue.push(node.right);
+    }
 };
 console.log(breathFirstSearchQueue(["A"]));
 
