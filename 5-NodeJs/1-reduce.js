@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /**
  * in keyword is used to find the key in the object
- * push and pod is sued to add and remove values from the array
+ * push and pop is used to add and remove values from the array
  * spread operator can be used in both arrays and objects
  */
 

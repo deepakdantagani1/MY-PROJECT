@@ -1,0 +1,170 @@
+{
+    "enabled": true,
+    "workbaskets": [
+      {
+        "name": "PFR",
+        "id": "purchaseforreim-10n8kjsxiyyk",
+        "supportedPermissionGroups": ["nacstpermission"],
+        "subtractDeductibleChannels": [
+          "1E5CA959308202F08CB4005056A72010",
+          "80375A75127456EEE053A239030AE1ED",
+          "BEECDF7AA98F2E76E0539B39030A8FF2",
+          "1C6B51B5A7AF1CD0E053183A060AC5A5",
+          "8F306CE8693E073EE0536138060AB049",
+          "3C7E80603575136BE053421F080AB134",
+          "48604F94A51244B6E053A239030ABFB9",
+          "48604F94A51444B6E053A239030ABFB9",
+          "7ECFD6967AB03758E0539B39030A31E0",
+          "4D810866798C4D748D802BE8AA6059D7",
+          "76F1F417A97660E1E0538A1F080A3484",
+          "416E2FA388E2164AE0539B39030ACB29",
+          "D1F315956BB11F20E053570F4C64E2A3",
+          "4E816684471E40F58841BEC96E89A37A",
+          "5641ABDC1F172173E0535E38060A29F7",
+          "16B150AFAC4C8AC0E06309634C64F9C5"
+        ]
+      },
+      {
+        "name": "Escalation",
+        "id": "escalations-dldh128kxexuwnk",
+        "version": "1.0.4",
+        "supportedPermissionGroups": ["nacstpermission"]
+      },
+      {
+        "name": "Refund",
+        "id": "refund-workbask-2t1j2cv8kll7thy1",
+        "supportedPermissionGroups": ["nacstpermission"],
+        "taxEnabledClient": [
+          "A8370349A50A69CBE0539B39030A148C",
+          "85043B8BF2B134A3E0539B39030A721E",
+          "8F306CE8693E073EE0536138060AB049",
+          "3C7E80603575136BE053421F080AB134",
+          "48604F94A51244B6E053A239030ABFB9",
+          "48604F94A51444B6E053A239030ABFB9",
+          "5875204648AC3D03E0539B39030A7CD2",
+          "5875204648AD3D03E0539B39030A7CD2",
+          "7ECFD6967AB03758E0539B39030A31E0",
+          "416E2FA388E2164AE0539B39030ACB29",
+          "D1F315956BB11F20E053570F4C64E2A3",
+          "16B150AFAC4C8AC0E06309634C64F9C5",
+          "8C3E6627BAC3440A84488C735E5E7AA9",
+          "0EEC845713014CA1AA8ACB5E3E6647E1",
+          "83680D4133B24F189486D861DD973BBB"
+        ],
+        "externalRefundFulfillment": ["4ECA222A37B63627E0536138060AB356"],
+        "nonRMAEnabledClient": ["4ECA222A37B63627E0536138060AB356"]
+      },
+      {
+        "name": "Payment Review",
+        "id": "payment-review-498nvmc8krayqt36",
+        "supportedPermissionGroups": ["financepermission"]
+      },
+      {
+        "name": "Finance",
+        "id": "refund-workbask-2t1j2cv8kll7thy1",
+        "supportedPermissionGroups": ["financepermission"],
+        "taxEnabledClient": [
+          "BEECDF7AA98F2E76E0539B39030A8FF2",
+          "A8370349A50A69CBE0539B39030A148C",
+          "95352E742A092CE6E0538A1F080A777C",
+          "5F9E751D70C864ECE0535E38060A94CB",
+          "85043B8BF2B134A3E0539B39030A721E",
+          "8F306CE8693E073EE0536138060AB049",
+          "3C7E80603575136BE053421F080AB134",
+          "48604F94A51244B6E053A239030ABFB9",
+          "48604F94A51444B6E053A239030ABFB9",
+          "5875204648AC3D03E0539B39030A7CD2",
+          "5875204648AD3D03E0539B39030A7CD2",
+          "7ECFD6967AB03758E0539B39030A31E0",
+          "416E2FA388E2164AE0539B39030ACB29",
+          "D1F315956BB11F20E053570F4C64E2A3",
+          "8A725682288C1B27E0538A1F080A66D6",
+          "C10D49A78FF26637E0539B39030AA612",
+          "16B150AFAC4C8AC0E06309634C64F9C5",
+          "F4BDFC0983562BCCE05309634C642A71",
+          "8C3E6627BAC3440A84488C735E5E7AA9",
+          "0EEC845713014CA1AA8ACB5E3E6647E1",
+          "83680D4133B24F189486D861DD973BBB",
+          "01BE903D9DC846EDB985B98C553E49C3"
+        ],
+        "externalRefundFulfillment": ["4ECA222A37B63627E0536138060AB356"],
+        "nonRMAEnabledClient": ["4ECA222A37B63627E0536138060AB356"]
+      },
+      {
+        "name": "Cancelled Orders",
+        "id": "cancelled-order-1dy19kvl23vrh",
+        "supportedPermissionGroups": ["nacstpermission"]
+      },
+      {
+        "name": "ATL",
+        "id": "advanced-tech-l-jypk9l3m036ny",
+        "version": "1.8.0",
+        "supportedPermissionGroups": ["rtlatlpermission"],
+        "workObjectType": [
+          "Bad_Address_Label",
+          "Bad_Address_Payment",
+          "Bad_Email_Label",
+          "Bad_Email_Payment",
+          "PREBO",
+          "Payment_Dispute",
+          "REFUND",
+          "ATL_Followup_Service_Solution",
+          "ATL_Followup_Claims_Accounting",
+          "ATL_Followup_Claims_Desktop",
+          "ATL follow up needed",
+          "Service Fee Override",
+          "Lost Product Request"
+        ]
+      },
+      {
+        "name": "Service Solution",
+        "id": "service-solutio-4cg9l3u8u22g",
+        "version": "1.2.9",
+        "supportedPermissionGroups": ["rtlsvcsolutionpermission"],
+        "workObjectType": [
+          "Service_Solution_Consideration",
+          "Service_Solution_Followup",
+          "Replacement_Exception",
+          "Payment_Dispute",
+          "Invoice_Needed",
+          "Product_Damaged",
+          "Product_not_received",
+          "No_longer_working",
+          "Fulfillment_Override",
+          "Buyout-Salvage",
+          "Reimbursement_Request",
+          "Return_Pending_Credit"
+        ],
+        "createWorkQueue": true
+      },
+      {
+        "name": "Claims Desktop",
+        "id": "claims-desktop-cloyld9l4haas3u",
+        "version": "1.9.0",
+        "workObjectType": [
+          "Claim_Inquiry",
+          "Payment_Dispute",
+          "Payment_Escalation"
+        ],
+        "supportedPermissionGroups": ["rtlclaimdesktoppermission"]
+      },
+      {
+        "name": "Claim Accounting",
+        "id": "claim-accountin-cloyld9l4hakhj4",
+        "version": "1.1.0",
+        "supportedPermissionGroups": ["rtlclaimsaccpermission"],
+        "workObjectType": [
+          "Reissue Payment",
+          "Stop Payment",
+          "Cashed Check Copy"
+        ]
+      },
+      {
+        "name": "Workqueue Manager",
+        "id": "agent-queue-man-kuxy8lvwt7rph",
+        "workqueueManagerEnabled": true,
+        "supportedPermissionGroups": [],
+        "version": "1.0.3"
+      }
+    ]
+}

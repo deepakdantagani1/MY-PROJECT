@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 
-// reverse(), isArray(), concat(), every(), filter(), reduce(), find(), findIndex(), forEach, Includes(), indexOf()
-// map()
+// reverse(), isArray(), concat(), every() ==> tet if all elements in an array satisfy a condition , filter(), reduce(), find(), findIndex(), forEach, Includes(), indexOf()
+// map() Creates a new array by applying a function to each element
+// some() Tests whether at least one element in the array passes the test implemented by the provided function
 
 //array.reverse();
 

@@ -15,9 +15,9 @@
  * @return {number[]}
  * time complesity o(n2)
  * space complexity 0(1)
- * when even thre is o(n2) as time complexity and o(1) as space complexity,
- we can reduce the time complixity to o(n) and space complixity as o(n)
- * if we need a value that alerady iterated, think of hashmap or hashset
+ * when even there is o(n2) as time complexity and o(1) as space complexity,
+   we can reduce the time complexity to o(n) and space complexity as o(n)
+ * if we need a value that already iterated, think of hashmap or hashset
  * map methods ==> has, get, delete, set
  * to find key in the object ==> key in object
  */

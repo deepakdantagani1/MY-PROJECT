@@ -14,11 +14,11 @@
  * not possible to iterate through the number
  * only way is to get the last number of the given number
  * also, can't maintain a for loop as we don't have the length
- * for the better performace to reduce thesearch to half
- * if there is a if condition with returrn, try to reduce the code
+ * for the better performance to reduce then search to half
+ * if there is a if condition with return, try to reduce the code
  * if there are tow return statements, then reduce it with the || condition
- *  time complaxity = O(logn)
- * space complaxity = O()
+ *  time complexity = O(logn)
+ * space complexity = O(1)
  */
 var isPalindrome = function(x) {
     // if(x<0) return false;

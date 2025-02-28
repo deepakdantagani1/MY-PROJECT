@@ -4,8 +4,8 @@
  * **** understanding the problem ******
  * read the question and visualize in the mind
  * collect all the hints
- * understand examples in detial and constraints
- * write down examples along with constraints
+ * understand examples in detail and constraints
+ * write down examples(ling, short, single) along with constraints
  *
  * **** brutal force *******
  * explain the process
@@ -33,23 +33,19 @@
  * ----- more practice -----
  * time and space complexities
  * writing conditions
- * java coding
  * data types
  */
 
 //there is answer in the question
 //take more example before write the logic
-//look for more edge cases
-//understand the constructor, once instaintiated, it should have all the info
-// dont use ! for null checks in java
-//to iterate a string, use substring to access each char
+//understand the constructor, once instantiated, it should have all the info
 //be careful in the loop of trying to access next values, could cause array index out of bound errors
 //in numbers, we can access last digit with modulo
 // remove the last number using division
 //check for redue the process of half
-//remove unwanted verables
+//remove unwanted variables
 //consider all edge cases and write them down, check the examples and constraints
-//read the question very carefully, find the hints, find all methods, understad the problem with examples too.
+//read the question very carefully, find the hints, find all methods, understand the problem with examples too.
 //if some opration is repeating, we can comeup with the alternative approch
 //check the if conditional carefully
 //explain through the time complexity
@@ -111,3 +107,23 @@
  * 2. find the recursive relation
  */
 
+/**
+ * consider all possible examples including edge cases, this helps writing pseudo code and evaluate if all conditions are covered
+ * 
+ * 1) half solved
+ * 2) empty array
+ * 3) single value
+ * 4) last value
+ * 5) first value
+ * 6) find edge cases
+ * 7) given example
+ * 8) possible negation examples before writing any statement, think of the condition if it is possible that it might not happen
+ */
+
+/**
+ * for better understanding, visualize if else condition as tow separate branches and then solve all conditions
+ */
+
+/**
+ * for any condition, always think of example if it is possible that it might not happen?
+ */
